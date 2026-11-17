@@ -1,0 +1,14 @@
+A3 quality classification (validation)
+======================================
+              precision    recall  f1-score   support
+
+     Damaged     0.8800    0.9565    0.9167        46
+       Dried     0.9905    0.9905    0.9905       210
+         Old     0.9664    0.9172    0.9412       314
+        Ripe     0.9179    0.9625    0.9397       267
+      Unripe     0.9780    0.9674    0.9727        92
+
+    accuracy                         0.9537       929
+   macro avg     0.9466    0.9588    0.9521       929
+weighted avg     0.9548    0.9537    0.9538       929
+

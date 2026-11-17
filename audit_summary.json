@@ -1,0 +1,248 @@
+{
+  "dataset_name": "VegNet (Unripe, Ripe, Old, Dried, Damaged)",
+  "audited_root": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\datasets\\raw\\vegnet\\New VegNet",
+  "source": {
+    "mendeley": "https://data.mendeley.com/datasets/6nxnjbn9w6/1",
+    "doi": "10.17632/6nxnjbn9w6.1",
+    "paper_doi": "10.1016/j.dib.2022.108657",
+    "huggingface": "https://huggingface.co/datasets/Project-AgML/VegNet_quality_classification",
+    "licence": "CC BY 4.0",
+    "upstream_reported_images": 6850,
+    "local_variant": "Hugging Face redistribution, 6150 images, resized to 256x256"
+  },
+  "counts": {
+    "total_files": 6150,
+    "readable": 6150,
+    "unreadable": 0,
+    "per_vegetable": {
+      "Bell Pepper": 1176,
+      "Chile Pepper": 1286,
+      "New Mexico Green Chile": 1327,
+      "Tomato": 2361
+    },
+    "per_quality": {
+      "Damaged": 317,
+      "Dried": 1389,
+      "Old": 2044,
+      "Ripe": 1787,
+      "Unripe": 613
+    },
+    "cells": [
+      {
+        "vegetable": "Bell Pepper",
+        "quality": "Damaged",
+        "count": 31
+      },
+      {
+        "vegetable": "Bell Pepper",
+        "quality": "Dried",
+        "count": 296
+      },
+      {
+        "vegetable": "Bell Pepper",
+        "quality": "Old",
+        "count": 349
+      },
+      {
+        "vegetable": "Bell Pepper",
+        "quality": "Ripe",
+        "count": 448
+      },
+      {
+        "vegetable": "Bell Pepper",
+        "quality": "Unripe",
+        "count": 52
+      },
+      {
+        "vegetable": "Chile Pepper",
+        "quality": "Damaged",
+        "count": 121
+      },
+      {
+        "vegetable": "Chile Pepper",
+        "quality": "Dried",
+        "count": 593
+      },
+      {
+        "vegetable": "Chile Pepper",
+        "quality": "Old",
+        "count": 200
+      },
+      {
+        "vegetable": "Chile Pepper",
+        "quality": "Ripe",
+        "count": 183
+      },
+      {
+        "vegetable": "Chile Pepper",
+        "quality": "Unripe",
+        "count": 189
+      },
+      {
+        "vegetable": "New Mexico Green Chile",
+        "quality": "Damaged",
+        "count": 138
+      },
+      {
+        "vegetable": "New Mexico Green Chile",
+        "quality": "Dried",
+        "count": 500
+      },
+      {
+        "vegetable": "New Mexico Green Chile",
+        "quality": "Old",
+        "count": 261
+      },
+      {
+        "vegetable": "New Mexico Green Chile",
+        "quality": "Ripe",
+        "count": 201
+      },
+      {
+        "vegetable": "New Mexico Green Chile",
+        "quality": "Unripe",
+        "count": 227
+      },
+      {
+        "vegetable": "Tomato",
+        "quality": "Damaged",
+        "count": 27
+      },
+      {
+        "vegetable": "Tomato",
+        "quality": "Dried",
+        "count": 0
+      },
+      {
+        "vegetable": "Tomato",
+        "quality": "Old",
+        "count": 1234
+      },
+      {
+        "vegetable": "Tomato",
+        "quality": "Ripe",
+        "count": 955
+      },
+      {
+        "vegetable": "Tomato",
+        "quality": "Unripe",
+        "count": 145
+      }
+    ],
+    "populated_cells": 19,
+    "empty_cells": [
+      "Tomato/Dried"
+    ],
+    "imbalance_ratio_max_min_cell": 45.7037037037037,
+    "largest_cell": {
+      "vegetable": "Tomato",
+      "quality": "Old",
+      "count": 1234
+    },
+    "smallest_cell": {
+      "vegetable": "Tomato",
+      "quality": "Dried",
+      "count": 0
+    }
+  },
+  "storage": {
+    "total_bytes": 131638293,
+    "total_human": "125.5 MiB",
+    "mean_bytes_per_image": 21404.600487804877,
+    "max_bytes": 41719,
+    "min_bytes": 5654
+  },
+  "geometry": {
+    "unique_dimensions": {
+      "256x256": 6150
+    },
+    "min_width": 256,
+    "max_width": 256,
+    "min_height": 256,
+    "max_height": 256,
+    "channels": {
+      "3": 6150
+    },
+    "pillow_modes": {
+      "RGB": 6150
+    },
+    "file_extensions": {
+      "jpg": 6150
+    }
+  },
+  "image_statistics": {
+    "brightness": {
+      "mean": 178.51268994835334,
+      "std": 12.474423435400354,
+      "min": 132.5279998779297,
+      "p05": 156.68203582763672,
+      "median": 179.24244689941406,
+      "p95": 197.32573318481442,
+      "max": 228.35716247558594
+    },
+    "contrast": {
+      "mean": 40.99717014202391,
+      "std": 9.189447518500412,
+      "min": 17.176574736249325,
+      "p05": 25.698014387408772,
+      "median": 41.799871579618056,
+      "p95": 55.11450690678855,
+      "max": 65.82686358803801
+    },
+    "sharpness": {
+      "mean": 139.33099632499523,
+      "std": 132.09612027966392,
+      "min": 3.106477798661217,
+      "p05": 12.951544502691831,
+      "median": 92.20990041818004,
+      "p95": 431.80307371424277,
+      "max": 801.5728642605245
+    },
+    "saturation": {
+      "mean": 56.380351691517404,
+      "std": 26.034461569590675,
+      "min": 9.18646240234375,
+      "p05": 18.557637786865236,
+      "median": 51.756690979003906,
+      "p95": 100.68875503540038,
+      "max": 214.00228881835938
+    },
+    "colourfulness": {
+      "mean": 50.88939866484665,
+      "std": 22.47326818430829,
+      "min": 6.934100151062012,
+      "p05": 17.369656753540042,
+      "median": 49.08877754211426,
+      "p95": 89.16331520080567,
+      "max": 142.51686096191406
+    },
+    "clipped_black_frac": {
+      "mean": 6.860252318343496e-06,
+      "std": 5.4855361954844036e-05,
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 3.0517578125e-05,
+      "max": 0.0018768310546875
+    },
+    "clipped_white_frac": {
+      "mean": 1.8749702267530488e-05,
+      "std": 0.00017144930242852816,
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.00592041015625
+    }
+  },
+  "duplicates": {
+    "exact_group_count": 0,
+    "exact_image_count": 0,
+    "near_group_count": 572,
+    "near_image_count": 2182,
+    "near_dup_threshold": 6,
+    "label_conflicting_group_count": 42,
+    "label_conflicting_image_count": 866
+  },
+  "audit_duration_s": 17.65
+}

@@ -1,0 +1,179 @@
+{
+  "seed": 42,
+  "ratios_requested": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "checks": {
+    "counts_per_split": {
+      "train": 4286,
+      "validation": 929,
+      "test": 935
+    },
+    "fractions": {
+      "train": 0.6969,
+      "validation": 0.1511,
+      "test": 0.152
+    },
+    "groups": 4540,
+    "groups_spanning_splits": 0,
+    "sha256_spanning_splits": 0,
+    "empty_splits": [],
+    "classes_present_per_split": {
+      "train": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ],
+      "validation": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ],
+      "test": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ]
+    },
+    "vegetables_present_per_split": {
+      "train": [
+        "Bell Pepper",
+        "Chile Pepper",
+        "New Mexico Green Chile",
+        "Tomato"
+      ],
+      "validation": [
+        "Bell Pepper",
+        "Chile Pepper",
+        "New Mexico Green Chile",
+        "Tomato"
+      ],
+      "test": [
+        "Bell Pepper",
+        "Chile Pepper",
+        "New Mexico Green Chile",
+        "Tomato"
+      ]
+    },
+    "all_groups_intact": true,
+    "no_exact_duplicate_across_splits": true,
+    "total_images": 6150
+  },
+  "per_split_cell_counts": {
+    "train": {
+      "Bell Pepper/Damaged": 23,
+      "Bell Pepper/Dried": 203,
+      "Bell Pepper/Old": 238,
+      "Bell Pepper/Ripe": 313,
+      "Bell Pepper/Unripe": 36,
+      "Chile Pepper/Damaged": 84,
+      "Chile Pepper/Dried": 411,
+      "Chile Pepper/Old": 141,
+      "Chile Pepper/Ripe": 123,
+      "Chile Pepper/Unripe": 134,
+      "New Mexico Green Chile/Damaged": 96,
+      "New Mexico Green Chile/Dried": 348,
+      "New Mexico Green Chile/Old": 183,
+      "New Mexico Green Chile/Ripe": 141,
+      "New Mexico Green Chile/Unripe": 159,
+      "Tomato/Damaged": 19,
+      "Tomato/Old": 864,
+      "Tomato/Ripe": 669,
+      "Tomato/Unripe": 101
+    },
+    "validation": {
+      "Bell Pepper/Damaged": 4,
+      "Bell Pepper/Dried": 46,
+      "Bell Pepper/Old": 59,
+      "Bell Pepper/Ripe": 66,
+      "Bell Pepper/Unripe": 8,
+      "Chile Pepper/Damaged": 17,
+      "Chile Pepper/Dried": 89,
+      "Chile Pepper/Old": 30,
+      "Chile Pepper/Ripe": 28,
+      "Chile Pepper/Unripe": 28,
+      "New Mexico Green Chile/Damaged": 21,
+      "New Mexico Green Chile/Dried": 75,
+      "New Mexico Green Chile/Old": 39,
+      "New Mexico Green Chile/Ripe": 30,
+      "New Mexico Green Chile/Unripe": 34,
+      "Tomato/Damaged": 4,
+      "Tomato/Old": 186,
+      "Tomato/Ripe": 143,
+      "Tomato/Unripe": 22
+    },
+    "test": {
+      "Bell Pepper/Damaged": 4,
+      "Bell Pepper/Dried": 47,
+      "Bell Pepper/Old": 52,
+      "Bell Pepper/Ripe": 69,
+      "Bell Pepper/Unripe": 8,
+      "Chile Pepper/Damaged": 20,
+      "Chile Pepper/Dried": 93,
+      "Chile Pepper/Old": 29,
+      "Chile Pepper/Ripe": 32,
+      "Chile Pepper/Unripe": 27,
+      "New Mexico Green Chile/Damaged": 21,
+      "New Mexico Green Chile/Dried": 77,
+      "New Mexico Green Chile/Old": 39,
+      "New Mexico Green Chile/Ripe": 30,
+      "New Mexico Green Chile/Unripe": 34,
+      "Tomato/Damaged": 4,
+      "Tomato/Old": 184,
+      "Tomato/Ripe": 143,
+      "Tomato/Unripe": 22
+    }
+  },
+  "per_split_vegetable_counts": {
+    "train": {
+      "Tomato": 1653,
+      "New Mexico Green Chile": 927,
+      "Chile Pepper": 893,
+      "Bell Pepper": 813
+    },
+    "validation": {
+      "Tomato": 355,
+      "New Mexico Green Chile": 199,
+      "Chile Pepper": 192,
+      "Bell Pepper": 183
+    },
+    "test": {
+      "Tomato": 353,
+      "Chile Pepper": 201,
+      "New Mexico Green Chile": 201,
+      "Bell Pepper": 180
+    }
+  },
+  "per_split_quality_counts": {
+    "train": {
+      "Old": 1426,
+      "Ripe": 1246,
+      "Dried": 962,
+      "Unripe": 430,
+      "Damaged": 222
+    },
+    "validation": {
+      "Old": 314,
+      "Ripe": 267,
+      "Dried": 210,
+      "Unripe": 92,
+      "Damaged": 46
+    },
+    "test": {
+      "Old": 304,
+      "Ripe": 274,
+      "Dried": 217,
+      "Unripe": 91,
+      "Damaged": 49
+    }
+  },
+  "materialised_files": 6150
+}

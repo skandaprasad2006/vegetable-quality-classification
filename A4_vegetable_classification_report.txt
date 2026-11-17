@@ -1,0 +1,13 @@
+A4 vegetable identification (validation)
+========================================
+                        precision    recall  f1-score   support
+
+           Bell Pepper     0.9946    1.0000    0.9973       183
+          Chile Pepper     1.0000    0.9948    0.9974       192
+New Mexico Green Chile     0.9950    0.9950    0.9950       199
+                Tomato     1.0000    1.0000    1.0000       355
+
+              accuracy                         0.9978       929
+             macro avg     0.9974    0.9974    0.9974       929
+          weighted avg     0.9979    0.9978    0.9978       929
+

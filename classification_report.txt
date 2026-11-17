@@ -1,0 +1,14 @@
+A5 Random Forest — official test split
+======================================
+              precision    recall  f1-score   support
+
+     Damaged     0.9744    0.7755    0.8636        49
+       Dried     0.9727    0.9862    0.9794       217
+         Old     0.9470    0.9408    0.9439       304
+        Ripe     0.9271    0.9745    0.9502       274
+      Unripe     0.9651    0.9121    0.9379        91
+
+    accuracy                         0.9497       935
+   macro avg     0.9573    0.9178    0.9350       935
+weighted avg     0.9503    0.9497    0.9492       935
+

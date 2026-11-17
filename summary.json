@@ -1,0 +1,259 @@
+{
+  "n_base_images": 61,
+  "conditions": {
+    "control": {
+      "description": "unmodified test image",
+      "n_trials": 61,
+      "accuracy": 0.9016,
+      "mean_confidence": 0.7952,
+      "median_confidence": 0.835,
+      "accuracy_when_confident_ge_0_7": 0.9787,
+      "n_confident_ge_0_7": 47,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 27.19,
+      "prediction_distribution": {
+        "Ripe": 20,
+        "Old": 20,
+        "Dried": 14,
+        "Unripe": 6,
+        "Damaged": 1
+      }
+    },
+    "dim_lighting": {
+      "description": "brightness x 0.55 (dim room)",
+      "n_trials": 61,
+      "accuracy": 0.5738,
+      "mean_confidence": 0.5096,
+      "median_confidence": 0.515,
+      "accuracy_when_confident_ge_0_7": 1.0,
+      "n_confident_ge_0_7": 2,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 26.93,
+      "prediction_distribution": {
+        "Old": 35,
+        "Ripe": 14,
+        "Unripe": 9,
+        "Damaged": 2,
+        "Dried": 1
+      }
+    },
+    "gaussian_blur": {
+      "description": "5x5 gaussian, sigma 1.4 (out of focus)",
+      "n_trials": 61,
+      "accuracy": 0.4426,
+      "mean_confidence": 0.6148,
+      "median_confidence": 0.535,
+      "accuracy_when_confident_ge_0_7": 0.6316,
+      "n_confident_ge_0_7": 19,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 26.63,
+      "prediction_distribution": {
+        "Ripe": 29,
+        "Old": 16,
+        "Unripe": 12,
+        "Dried": 4
+      }
+    },
+    "harsh_lighting": {
+      "description": "brightness x 1.45 (overexposed)",
+      "n_trials": 61,
+      "accuracy": 0.7213,
+      "mean_confidence": 0.5163,
+      "median_confidence": 0.485,
+      "accuracy_when_confident_ge_0_7": 1.0,
+      "n_confident_ge_0_7": 6,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 25.26,
+      "prediction_distribution": {
+        "Ripe": 26,
+        "Dried": 18,
+        "Old": 13,
+        "Unripe": 4
+      }
+    },
+    "jpeg_q30": {
+      "description": "JPEG recompressed at quality 30",
+      "n_trials": 61,
+      "accuracy": 0.8689,
+      "mean_confidence": 0.6434,
+      "median_confidence": 0.665,
+      "accuracy_when_confident_ge_0_7": 1.0,
+      "n_confident_ge_0_7": 27,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 27.53,
+      "prediction_distribution": {
+        "Old": 22,
+        "Ripe": 18,
+        "Dried": 16,
+        "Unripe": 4,
+        "Damaged": 1
+      }
+    },
+    "low_contrast": {
+      "description": "contrast compressed to 55%",
+      "n_trials": 61,
+      "accuracy": 0.5574,
+      "mean_confidence": 0.5096,
+      "median_confidence": 0.5,
+      "accuracy_when_confident_ge_0_7": 1.0,
+      "n_confident_ge_0_7": 2,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 25.64,
+      "prediction_distribution": {
+        "Old": 33,
+        "Ripe": 13,
+        "Unripe": 12,
+        "Damaged": 2,
+        "Dried": 1
+      }
+    },
+    "low_resolution": {
+      "description": "downscaled to 96px then restored to 224px",
+      "n_trials": 61,
+      "accuracy": 0.4262,
+      "mean_confidence": 0.6315,
+      "median_confidence": 0.57,
+      "accuracy_when_confident_ge_0_7": 0.65,
+      "n_confident_ge_0_7": 20,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 26.61,
+      "prediction_distribution": {
+        "Ripe": 29,
+        "Old": 16,
+        "Unripe": 13,
+        "Dried": 3
+      }
+    },
+    "rotated_15deg": {
+      "description": "rotated 15 degrees, reflected borders",
+      "n_trials": 61,
+      "accuracy": 0.7869,
+      "mean_confidence": 0.713,
+      "median_confidence": 0.725,
+      "accuracy_when_confident_ge_0_7": 0.9706,
+      "n_confident_ge_0_7": 34,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 26.99,
+      "prediction_distribution": {
+        "Old": 20,
+        "Ripe": 18,
+        "Dried": 12,
+        "Unripe": 9,
+        "Damaged": 2
+      }
+    },
+    "tight_crop": {
+      "description": "central 70% crop (closer framing)",
+      "n_trials": 61,
+      "accuracy": 0.6066,
+      "mean_confidence": 0.6039,
+      "median_confidence": 0.535,
+      "accuracy_when_confident_ge_0_7": 0.8824,
+      "n_confident_ge_0_7": 17,
+      "segmentation_ok_fraction": 0.9508,
+      "mean_latency_ms": 32.58,
+      "prediction_distribution": {
+        "Ripe": 26,
+        "Old": 19,
+        "Unripe": 7,
+        "Dried": 6,
+        "Damaged": 3
+      }
+    },
+    "vignette": {
+      "description": "radial illumination falloff",
+      "n_trials": 61,
+      "accuracy": 0.4754,
+      "mean_confidence": 0.5813,
+      "median_confidence": 0.55,
+      "accuracy_when_confident_ge_0_7": 0.7692,
+      "n_confident_ge_0_7": 13,
+      "segmentation_ok_fraction": 1.0,
+      "mean_latency_ms": 34.34,
+      "prediction_distribution": {
+        "Ripe": 26,
+        "Old": 16,
+        "Unripe": 15,
+        "Dried": 3,
+        "Damaged": 1
+      }
+    }
+  },
+  "note": "Derived from held-out test images by controlled transformation. Quantitative but not a real-world photograph study.",
+  "overall_accuracy": 0.6361,
+  "overall_mean_confidence": 0.6119,
+  "elapsed_s": 17.14,
+  "weakest_conditions": [
+    {
+      "condition": "low_resolution",
+      "accuracy": 0.4262
+    },
+    {
+      "condition": "gaussian_blur",
+      "accuracy": 0.4426
+    },
+    {
+      "condition": "vignette",
+      "accuracy": 0.4754
+    }
+  ],
+  "n_failures": 222,
+  "highest_confidence_failures": [
+    {
+      "file_name": "IMG_20220601_094922.jpg",
+      "condition": "low_resolution",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.97
+    },
+    {
+      "file_name": "IMG_20220528_092117.jpg",
+      "condition": "low_resolution",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.96
+    },
+    {
+      "file_name": "IMG_20220528_092117.jpg",
+      "condition": "gaussian_blur",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.96
+    },
+    {
+      "file_name": "IMG_20220601_094836.jpg",
+      "condition": "low_resolution",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.96
+    },
+    {
+      "file_name": "IMG_20220601_094922.jpg",
+      "condition": "gaussian_blur",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.955
+    },
+    {
+      "file_name": "IMG_20220601_094836.jpg",
+      "condition": "gaussian_blur",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.95
+    },
+    {
+      "file_name": "IMG_20220602_084653.jpg",
+      "condition": "low_resolution",
+      "true_quality": "Ripe",
+      "predicted_quality": "Unripe",
+      "confidence": 0.86
+    },
+    {
+      "file_name": "IMG_20220526_085940.jpg",
+      "condition": "tight_crop",
+      "true_quality": "Old",
+      "predicted_quality": "Ripe",
+      "confidence": 0.835
+    }
+  ]
+}

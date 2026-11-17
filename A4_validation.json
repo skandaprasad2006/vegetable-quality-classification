@@ -1,0 +1,204 @@
+{
+  "run_id": "A4",
+  "label": "MobileNetV2 frozen, multi-task (vegetable + quality)",
+  "stage": "P0",
+  "config": {
+    "stage": "P0",
+    "kind": "cnn",
+    "backbone": "mobilenetv2",
+    "head": "multitask",
+    "freeze": true,
+    "epochs": 15,
+    "lr": 0.001,
+    "label": "MobileNetV2 frozen, multi-task (vegetable + quality)",
+    "preset": "tf_native",
+    "size": 224,
+    "batch": 32,
+    "seed": 42,
+    "augment": true,
+    "class_weight": true,
+    "es_patience": 4,
+    "es_min_delta": 0.0001,
+    "lr_patience": 2,
+    "lr_factor": 0.3
+  },
+  "model": {
+    "name": "mobilenetv2_multitask_frozen",
+    "input_shape": [
+      224,
+      224,
+      3
+    ],
+    "output_names": [
+      "quality",
+      "vegetable"
+    ],
+    "total_params": 2587081,
+    "trainable_params": 329097,
+    "frozen_params": 2257984,
+    "size_mb_fp32": 9.87
+  },
+  "normalization": "tf",
+  "class_weight_values": {
+    "quality": {
+      "0": 3.8613,
+      "1": 0.8911,
+      "2": 0.6011,
+      "3": 0.688,
+      "4": 1.9935
+    },
+    "vegetable": {
+      "3": 0.6482,
+      "2": 1.1559,
+      "1": 1.1999,
+      "0": 1.318
+    },
+    "mechanism": "per-sample weights on the dataset"
+  },
+  "train_images": 4286,
+  "val_images": 929,
+  "epochs_planned": 15,
+  "epochs_run": 14,
+  "train_time_s": 824.78,
+  "inference_ms_per_image_batched": 9.56,
+  "latency": {
+    "batch1_ms_median": 152.22,
+    "batch1_ms_p95": 168.88
+  },
+  "resources": {
+    "samples": 813,
+    "rss_mb_mean": 1235.8,
+    "rss_mb_max": 1260.2,
+    "cpu_percent_mean": 78.1,
+    "cpu_percent_max": 95.4,
+    "total_ram_gb": 15.71,
+    "aborted_reason": null
+  },
+  "quality": {
+    "n_samples": 929,
+    "accuracy": 0.9354144241119483,
+    "macro_precision": 0.937014067282608,
+    "macro_recall": 0.9446559699058772,
+    "macro_f1": 0.9400573120836059,
+    "weighted_f1": 0.935018004203839,
+    "macro_f1_ci95": {
+      "mean": 0.9395186977788657,
+      "lo": 0.9215910676136043,
+      "hi": 0.9559907843161559,
+      "std": 0.008916385838697397
+    },
+    "classes_present": 5,
+    "classes_absent": [],
+    "per_class": [
+      {
+        "class": "Damaged",
+        "index": 0,
+        "support": 46,
+        "precision": 0.9361702127659575,
+        "recall": 0.9565217391304348,
+        "f1": 0.946236559139785
+      },
+      {
+        "class": "Dried",
+        "index": 1,
+        "support": 210,
+        "precision": 0.9764150943396226,
+        "recall": 0.9857142857142858,
+        "f1": 0.981042654028436
+      },
+      {
+        "class": "Old",
+        "index": 2,
+        "support": 314,
+        "precision": 0.9006024096385542,
+        "recall": 0.9522292993630573,
+        "f1": 0.9256965944272446
+      },
+      {
+        "class": "Ripe",
+        "index": 3,
+        "support": 267,
+        "precision": 0.9543568464730291,
+        "recall": 0.8614232209737828,
+        "f1": 0.905511811023622
+      },
+      {
+        "class": "Unripe",
+        "index": 4,
+        "support": 92,
+        "precision": 0.9175257731958762,
+        "recall": 0.967391304347826,
+        "f1": 0.9417989417989417
+      }
+    ],
+    "class_names": [
+      "Damaged",
+      "Dried",
+      "Old",
+      "Ripe",
+      "Unripe"
+    ]
+  },
+  "checkpoints": {
+    "best": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A4\\best.keras",
+    "last": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A4\\last.keras"
+  },
+  "history_path": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A4\\history.json",
+  "vegetable": {
+    "n_samples": 929,
+    "accuracy": 0.9978471474703983,
+    "macro_precision": 0.9973850229407909,
+    "macro_recall": 0.9974416352596315,
+    "macro_f1": 0.9974097781685227,
+    "weighted_f1": 0.9978472087349747,
+    "macro_f1_ci95": {
+      "mean": 0.9973931320410411,
+      "lo": 0.9935170734540686,
+      "hi": 1.0,
+      "std": 0.0017614173842619364
+    },
+    "classes_present": 4,
+    "classes_absent": [],
+    "per_class": [
+      {
+        "class": "Bell Pepper",
+        "index": 0,
+        "support": 183,
+        "precision": 0.9945652173913043,
+        "recall": 1.0,
+        "f1": 0.997275204359673
+      },
+      {
+        "class": "Chile Pepper",
+        "index": 1,
+        "support": 192,
+        "precision": 1.0,
+        "recall": 0.9947916666666666,
+        "f1": 0.9973890339425587
+      },
+      {
+        "class": "New Mexico Green Chile",
+        "index": 2,
+        "support": 199,
+        "precision": 0.9949748743718593,
+        "recall": 0.9949748743718593,
+        "f1": 0.9949748743718593
+      },
+      {
+        "class": "Tomato",
+        "index": 3,
+        "support": 355,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ],
+    "class_names": [
+      "Bell Pepper",
+      "Chile Pepper",
+      "New Mexico Green Chile",
+      "Tomato"
+    ]
+  },
+  "joint_both_correct_rate": 0.9332615715823466
+}

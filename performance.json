@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-11-15T08:44:03",
+  "cold_start": {
+    "samples": [
+      {
+        "load_s": 2.0561,
+        "process_wall_s": 2.267
+      },
+      {
+        "load_s": 2.0463,
+        "process_wall_s": 2.26
+      },
+      {
+        "load_s": 2.1299,
+        "process_wall_s": 2.336
+      }
+    ],
+    "load_s_median": 2.056,
+    "interpreter_and_imports_s": 0.211,
+    "note": "Fresh process each time; includes importing numpy, sklearn, joblib."
+  },
+  "stages": {
+    "image": "IMG_20220609_091110.jpg",
+    "image_bytes": 29959,
+    "image_size": [
+      256,
+      256
+    ],
+    "stages": {
+      "validation": {
+        "n": 50,
+        "mean_ms": 0.01,
+        "median_ms": 0.01,
+        "std_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.03,
+        "p95_ms": 0.01
+      },
+      "decode": {
+        "n": 50,
+        "mean_ms": 0.34,
+        "median_ms": 0.32,
+        "std_ms": 0.07,
+        "min_ms": 0.27,
+        "max_ms": 0.54,
+        "p95_ms": 0.52
+      },
+      "preprocess": {
+        "n": 50,
+        "mean_ms": 20.52,
+        "median_ms": 19.1,
+        "std_ms": 3.75,
+        "min_ms": 17.47,
+        "max_ms": 32.43,
+        "p95_ms": 29.33
+      },
+      "predict": {
+        "n": 50,
+        "mean_ms": 8.33,
+        "median_ms": 7.54,
+        "std_ms": 2.25,
+        "min_ms": 6.94,
+        "max_ms": 17.11,
+        "p95_ms": 14.0
+      },
+      "end_to_end": {
+        "n": 50,
+        "mean_ms": 29.2,
+        "median_ms": 27.19,
+        "std_ms": 4.99,
+        "min_ms": 25.26,
+        "max_ms": 47.41,
+        "p95_ms": 39.45
+      }
+    },
+    "preprocess_components": {
+      "resize_plus_segmentation": {
+        "n": 50,
+        "mean_ms": 2.69,
+        "median_ms": 2.51,
+        "std_ms": 0.44,
+        "min_ms": 2.25,
+        "max_ms": 4.17,
+        "p95_ms": 3.62
+      },
+      "feature_extraction": {
+        "n": 50,
+        "mean_ms": 16.28,
+        "median_ms": 15.4,
+        "std_ms": 2.91,
+        "min_ms": 14.13,
+        "max_ms": 27.16,
+        "p95_ms": 22.73
+      }
+    },
+    "process": {
+      "rss_start_mb": 204.6,
+      "rss_end_mb": 205.8,
+      "rss_growth_mb": 1.2,
+      "cpu_percent_mean": 22.0,
+      "cpu_count": 16
+    }
+  },
+  "large_image": {
+    "megapixels": 12.0,
+    "jpeg_bytes": 14062864,
+    "within_upload_limit": true,
+    "decode_ms": 117.4,
+    "predict_and_preprocess_ms": 137.5,
+    "predicted": "Ripe",
+    "ok": true
+  },
+  "repeated_predictions": {
+    "predictions": 200,
+    "errors": 0,
+    "rss_before_mb": 201.3,
+    "rss_after_mb": 206.4,
+    "rss_growth_mb": 5.11,
+    "predict_only": {
+      "n": 200,
+      "mean_ms": 8.82,
+      "median_ms": 7.73,
+      "std_ms": 2.53,
+      "min_ms": 6.92,
+      "max_ms": 17.24,
+      "p95_ms": 15.86
+    }
+  },
+  "failure_paths": {
+    "missing_model": {
+      "raised": true,
+      "message": "Model file not found at definitely_absent.joblib. Expected the Phase 2 artefact produced by `python -m src.training.train --run-id A5`.",
+      "pass": true
+    },
+    "upload_limit": {
+      "limit_mb": 15,
+      "just_under_accepted": true,
+      "just_over_rejected": true,
+      "over_message": "File is 15.0 MB; the limit is 15 MB.",
+      "pass": true
+    },
+    "missing_artefact": {
+      "raised": true,
+      "message": "does_not_exist.json not found at evaluation\\metrics",
+      "pass": true
+    },
+    "invalid_image": {
+      "raised": true,
+      "message": "The image could not be decoded. It may be corrupted or truncated.",
+      "pass": true
+    },
+    "all_pass": true
+  }
+}

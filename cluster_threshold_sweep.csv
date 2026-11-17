@@ -1,0 +1,10 @@
+threshold,multi_components,images_in_multi,largest_component,largest_diameter,label_pure_components,label_pure_share,components_spanning_labels,images_in_conflicting_components
+0,6,12,2,0,6,1.0,0,0
+1,33,67,3,2,32,0.9697,1,2
+2,118,251,5,4,116,0.9831,2,4
+3,228,518,8,8,218,0.9561,10,31
+4,369,918,25,18,348,0.9431,21,119
+5,498,1482,172,29,447,0.8976,51,401
+6,572,2182,732,39,530,0.9266,42,866
+8,490,3733,2349,45,453,0.9245,37,2525
+10,243,4975,4267,54,231,0.9506,12,4319

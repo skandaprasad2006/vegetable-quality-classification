@@ -1,0 +1,179 @@
+{
+  "total_images": 6150,
+  "conflict_groups": 42,
+  "conflict_images": 866,
+  "share_of_corpus": 0.1408130081300813,
+  "groups_same_vegetable": 6,
+  "groups_cross_vegetable": 36,
+  "median_group_size": 3.0,
+  "largest_group": 732,
+  "top_quality_pairs": [
+    {
+      "pair": [
+        "Dried",
+        "Ripe"
+      ],
+      "groups": 22
+    },
+    {
+      "pair": [
+        "Dried",
+        "Old"
+      ],
+      "groups": 21
+    },
+    {
+      "pair": [
+        "Old",
+        "Ripe"
+      ],
+      "groups": 21
+    },
+    {
+      "pair": [
+        "Damaged",
+        "Ripe"
+      ],
+      "groups": 19
+    },
+    {
+      "pair": [
+        "Damaged",
+        "Old"
+      ],
+      "groups": 19
+    },
+    {
+      "pair": [
+        "Damaged",
+        "Dried"
+      ],
+      "groups": 17
+    },
+    {
+      "pair": [
+        "Ripe",
+        "Unripe"
+      ],
+      "groups": 14
+    },
+    {
+      "pair": [
+        "Old",
+        "Unripe"
+      ],
+      "groups": 14
+    },
+    {
+      "pair": [
+        "Damaged",
+        "Unripe"
+      ],
+      "groups": 12
+    },
+    {
+      "pair": [
+        "Dried",
+        "Unripe"
+      ],
+      "groups": 11
+    },
+    {
+      "pair": [
+        "Old",
+        "Old"
+      ],
+      "groups": 10
+    },
+    {
+      "pair": [
+        "Dried",
+        "Dried"
+      ],
+      "groups": 7
+    },
+    {
+      "pair": [
+        "Damaged",
+        "Damaged"
+      ],
+      "groups": 6
+    },
+    {
+      "pair": [
+        "Ripe",
+        "Ripe"
+      ],
+      "groups": 6
+    },
+    {
+      "pair": [
+        "Unripe",
+        "Unripe"
+      ],
+      "groups": 3
+    }
+  ],
+  "top_label_pairs": [
+    {
+      "label_a": "Bell Pepper/Dried",
+      "label_b": "Tomato/Old",
+      "groups": 6,
+      "images_involved": 748
+    },
+    {
+      "label_a": "Bell Pepper/Dried",
+      "label_b": "Bell Pepper/Ripe",
+      "groups": 3,
+      "images_involved": 740
+    },
+    {
+      "label_a": "Bell Pepper/Dried",
+      "label_b": "New Mexico Green Chile/Dried",
+      "groups": 3,
+      "images_involved": 738
+    },
+    {
+      "label_a": "Bell Pepper/Old",
+      "label_b": "Tomato/Old",
+      "groups": 3,
+      "images_involved": 742
+    },
+    {
+      "label_a": "Bell Pepper/Ripe",
+      "label_b": "New Mexico Green Chile/Dried",
+      "groups": 3,
+      "images_involved": 738
+    },
+    {
+      "label_a": "Bell Pepper/Ripe",
+      "label_b": "New Mexico Green Chile/Unripe",
+      "groups": 3,
+      "images_involved": 739
+    },
+    {
+      "label_a": "Bell Pepper/Ripe",
+      "label_b": "Tomato/Old",
+      "groups": 3,
+      "images_involved": 739
+    },
+    {
+      "label_a": "Chile Pepper/Damaged",
+      "label_b": "New Mexico Green Chile/Dried",
+      "groups": 3,
+      "images_involved": 740
+    },
+    {
+      "label_a": "Chile Pepper/Damaged",
+      "label_b": "Tomato/Ripe",
+      "groups": 3,
+      "images_involved": 742
+    },
+    {
+      "label_a": "Chile Pepper/Dried",
+      "label_b": "New Mexico Green Chile/Dried",
+      "groups": 3,
+      "images_involved": 737
+    }
+  ]
+}

@@ -1,1 +1,37 @@
-*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments / toolchains
+.venv/
+.python/
+.env
+.dev.vars
+
+# Large binary artefacts — tracked by manifest, not by git
+datasets/raw/
+datasets/interim/
+datasets/processed/
+datasets/downloads/*.zip
+datasets/downloads/*.tar*
+models/checkpoints/*.keras
+models/checkpoints/*.h5
+models/final/*.keras
+models/final/*.h5
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Training leftovers
+*.log
+!evaluation/**/*.log

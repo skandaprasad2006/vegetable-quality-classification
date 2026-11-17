@@ -1,0 +1,15 @@
+{
+  "pristine_root": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\Dataset\\VegNet (Unripe, Ripe, Old, Dried and Damaged)\\New VegNet",
+  "working_root": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\datasets\\raw\\vegnet\\New VegNet",
+  "files_pristine": 6150,
+  "files_working": 6150,
+  "total_bytes_pristine": 131638293,
+  "total_human": "125.5 MiB",
+  "missing_from_working": [],
+  "extra_in_working": [],
+  "content_mismatches": [],
+  "n_missing_from_working": 0,
+  "n_extra_in_working": 0,
+  "n_content_mismatches": 0,
+  "identical": true
+}

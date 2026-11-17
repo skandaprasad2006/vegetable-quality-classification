@@ -1,0 +1,154 @@
+label_a,label_b,groups,images_involved
+Bell Pepper/Dried,Tomato/Old,6,748
+Bell Pepper/Dried,Bell Pepper/Ripe,3,740
+Bell Pepper/Dried,New Mexico Green Chile/Dried,3,738
+Bell Pepper/Old,Tomato/Old,3,742
+Bell Pepper/Ripe,New Mexico Green Chile/Dried,3,738
+Bell Pepper/Ripe,New Mexico Green Chile/Unripe,3,739
+Bell Pepper/Ripe,Tomato/Old,3,739
+Chile Pepper/Damaged,New Mexico Green Chile/Dried,3,740
+Chile Pepper/Damaged,Tomato/Ripe,3,742
+Chile Pepper/Dried,New Mexico Green Chile/Dried,3,737
+Chile Pepper/Dried,Tomato/Old,3,738
+Chile Pepper/Old,New Mexico Green Chile/Old,3,737
+New Mexico Green Chile/Dried,Tomato/Ripe,3,737
+Bell Pepper/Damaged,New Mexico Green Chile/Dried,2,735
+Bell Pepper/Damaged,Bell Pepper/Dried,2,735
+Bell Pepper/Dried,Chile Pepper/Damaged,2,735
+Bell Pepper/Old,New Mexico Green Chile/Dried,2,734
+Bell Pepper/Ripe,Chile Pepper/Dried,2,734
+Chile Pepper/Damaged,New Mexico Green Chile/Ripe,2,737
+Chile Pepper/Damaged,Tomato/Old,2,734
+Chile Pepper/Dried,Chile Pepper/Ripe,2,734
+Chile Pepper/Dried,Tomato/Ripe,2,737
+Chile Pepper/Old,Tomato/Ripe,2,736
+Chile Pepper/Ripe,New Mexico Green Chile/Old,2,738
+Chile Pepper/Unripe,New Mexico Green Chile/Dried,2,734
+Chile Pepper/Unripe,New Mexico Green Chile/Old,2,734
+Chile Pepper/Unripe,Tomato/Old,2,739
+New Mexico Green Chile/Damaged,Tomato/Old,2,736
+New Mexico Green Chile/Dried,New Mexico Green Chile/Ripe,2,737
+New Mexico Green Chile/Dried,New Mexico Green Chile/Unripe,2,734
+New Mexico Green Chile/Dried,Tomato/Old,2,735
+Tomato/Damaged,Tomato/Old,2,735
+Tomato/Old,Tomato/Ripe,2,734
+Bell Pepper/Damaged,Bell Pepper/Old,1,732
+Bell Pepper/Damaged,Bell Pepper/Ripe,1,732
+Bell Pepper/Damaged,Chile Pepper/Damaged,1,732
+Bell Pepper/Damaged,Chile Pepper/Dried,1,732
+Bell Pepper/Damaged,Chile Pepper/Old,1,732
+Bell Pepper/Damaged,Chile Pepper/Ripe,1,732
+Bell Pepper/Damaged,Chile Pepper/Unripe,1,732
+Bell Pepper/Damaged,New Mexico Green Chile/Damaged,1,732
+Bell Pepper/Damaged,New Mexico Green Chile/Old,1,732
+Bell Pepper/Damaged,New Mexico Green Chile/Ripe,1,732
+Bell Pepper/Damaged,New Mexico Green Chile/Unripe,1,732
+Bell Pepper/Damaged,Tomato/Damaged,1,732
+Bell Pepper/Damaged,Tomato/Old,1,732
+Bell Pepper/Damaged,Tomato/Ripe,1,732
+Bell Pepper/Damaged,Tomato/Unripe,1,732
+Bell Pepper/Dried,Bell Pepper/Old,1,732
+Bell Pepper/Dried,Chile Pepper/Dried,1,732
+Bell Pepper/Dried,Chile Pepper/Old,1,732
+Bell Pepper/Dried,Chile Pepper/Ripe,1,732
+Bell Pepper/Dried,Chile Pepper/Unripe,1,732
+Bell Pepper/Dried,New Mexico Green Chile/Damaged,1,732
+Bell Pepper/Dried,New Mexico Green Chile/Old,1,732
+Bell Pepper/Dried,New Mexico Green Chile/Ripe,1,732
+Bell Pepper/Dried,New Mexico Green Chile/Unripe,1,732
+Bell Pepper/Dried,Tomato/Damaged,1,732
+Bell Pepper/Dried,Tomato/Ripe,1,732
+Bell Pepper/Dried,Tomato/Unripe,1,732
+Bell Pepper/Old,Bell Pepper/Ripe,1,732
+Bell Pepper/Old,Chile Pepper/Damaged,1,732
+Bell Pepper/Old,Chile Pepper/Dried,1,732
+Bell Pepper/Old,Chile Pepper/Old,1,732
+Bell Pepper/Old,Chile Pepper/Ripe,1,732
+Bell Pepper/Old,Chile Pepper/Unripe,1,732
+Bell Pepper/Old,New Mexico Green Chile/Damaged,1,732
+Bell Pepper/Old,New Mexico Green Chile/Old,1,732
+Bell Pepper/Old,New Mexico Green Chile/Ripe,1,732
+Bell Pepper/Old,New Mexico Green Chile/Unripe,1,732
+Bell Pepper/Old,Tomato/Damaged,1,732
+Bell Pepper/Old,Tomato/Ripe,1,732
+Bell Pepper/Old,Tomato/Unripe,1,732
+Bell Pepper/Ripe,Chile Pepper/Damaged,1,732
+Bell Pepper/Ripe,Chile Pepper/Old,1,732
+Bell Pepper/Ripe,Chile Pepper/Ripe,1,732
+Bell Pepper/Ripe,Chile Pepper/Unripe,1,732
+Bell Pepper/Ripe,New Mexico Green Chile/Damaged,1,732
+Bell Pepper/Ripe,New Mexico Green Chile/Old,1,732
+Bell Pepper/Ripe,New Mexico Green Chile/Ripe,1,732
+Bell Pepper/Ripe,Tomato/Damaged,1,732
+Bell Pepper/Ripe,Tomato/Ripe,1,732
+Bell Pepper/Ripe,Tomato/Unripe,1,732
+Chile Pepper/Damaged,Chile Pepper/Dried,1,732
+Chile Pepper/Damaged,Chile Pepper/Old,1,732
+Chile Pepper/Damaged,Chile Pepper/Ripe,1,732
+Chile Pepper/Damaged,Chile Pepper/Unripe,1,732
+Chile Pepper/Damaged,New Mexico Green Chile/Damaged,1,732
+Chile Pepper/Damaged,New Mexico Green Chile/Old,1,732
+Chile Pepper/Damaged,New Mexico Green Chile/Unripe,1,732
+Chile Pepper/Damaged,Tomato/Damaged,1,732
+Chile Pepper/Damaged,Tomato/Unripe,1,732
+Chile Pepper/Dried,Chile Pepper/Old,1,732
+Chile Pepper/Dried,Chile Pepper/Unripe,1,732
+Chile Pepper/Dried,New Mexico Green Chile/Damaged,1,732
+Chile Pepper/Dried,New Mexico Green Chile/Old,1,732
+Chile Pepper/Dried,New Mexico Green Chile/Ripe,1,732
+Chile Pepper/Dried,New Mexico Green Chile/Unripe,1,732
+Chile Pepper/Dried,Tomato/Damaged,1,732
+Chile Pepper/Dried,Tomato/Unripe,1,732
+Chile Pepper/Old,Chile Pepper/Ripe,1,732
+Chile Pepper/Old,Chile Pepper/Unripe,1,732
+Chile Pepper/Old,New Mexico Green Chile/Damaged,1,732
+Chile Pepper/Old,New Mexico Green Chile/Dried,1,732
+Chile Pepper/Old,New Mexico Green Chile/Ripe,1,732
+Chile Pepper/Old,New Mexico Green Chile/Unripe,1,732
+Chile Pepper/Old,Tomato/Damaged,1,732
+Chile Pepper/Old,Tomato/Old,1,732
+Chile Pepper/Old,Tomato/Unripe,1,732
+Chile Pepper/Ripe,Chile Pepper/Unripe,1,732
+Chile Pepper/Ripe,New Mexico Green Chile/Damaged,1,732
+Chile Pepper/Ripe,New Mexico Green Chile/Dried,1,732
+Chile Pepper/Ripe,New Mexico Green Chile/Ripe,1,732
+Chile Pepper/Ripe,New Mexico Green Chile/Unripe,1,732
+Chile Pepper/Ripe,Tomato/Damaged,1,732
+Chile Pepper/Ripe,Tomato/Old,1,732
+Chile Pepper/Ripe,Tomato/Ripe,1,732
+Chile Pepper/Ripe,Tomato/Unripe,1,732
+Chile Pepper/Unripe,New Mexico Green Chile/Damaged,1,732
+Chile Pepper/Unripe,New Mexico Green Chile/Ripe,1,732
+Chile Pepper/Unripe,New Mexico Green Chile/Unripe,1,732
+Chile Pepper/Unripe,Tomato/Damaged,1,732
+Chile Pepper/Unripe,Tomato/Ripe,1,732
+Chile Pepper/Unripe,Tomato/Unripe,1,732
+New Mexico Green Chile/Damaged,New Mexico Green Chile/Dried,1,732
+New Mexico Green Chile/Damaged,New Mexico Green Chile/Old,1,732
+New Mexico Green Chile/Damaged,New Mexico Green Chile/Ripe,1,732
+New Mexico Green Chile/Damaged,New Mexico Green Chile/Unripe,1,732
+New Mexico Green Chile/Damaged,Tomato/Damaged,1,732
+New Mexico Green Chile/Damaged,Tomato/Ripe,1,732
+New Mexico Green Chile/Damaged,Tomato/Unripe,1,732
+New Mexico Green Chile/Dried,New Mexico Green Chile/Old,1,732
+New Mexico Green Chile/Dried,Tomato/Damaged,1,732
+New Mexico Green Chile/Dried,Tomato/Unripe,1,732
+New Mexico Green Chile/Old,New Mexico Green Chile/Ripe,1,732
+New Mexico Green Chile/Old,New Mexico Green Chile/Unripe,1,732
+New Mexico Green Chile/Old,Tomato/Damaged,1,732
+New Mexico Green Chile/Old,Tomato/Old,1,732
+New Mexico Green Chile/Old,Tomato/Ripe,1,732
+New Mexico Green Chile/Old,Tomato/Unripe,1,732
+New Mexico Green Chile/Ripe,New Mexico Green Chile/Unripe,1,732
+New Mexico Green Chile/Ripe,Tomato/Damaged,1,732
+New Mexico Green Chile/Ripe,Tomato/Old,1,732
+New Mexico Green Chile/Ripe,Tomato/Ripe,1,732
+New Mexico Green Chile/Ripe,Tomato/Unripe,1,732
+New Mexico Green Chile/Unripe,Tomato/Damaged,1,732
+New Mexico Green Chile/Unripe,Tomato/Old,1,732
+New Mexico Green Chile/Unripe,Tomato/Ripe,1,732
+New Mexico Green Chile/Unripe,Tomato/Unripe,1,732
+Tomato/Damaged,Tomato/Ripe,1,732
+Tomato/Damaged,Tomato/Unripe,1,732
+Tomato/Old,Tomato/Unripe,1,732
+Tomato/Ripe,Tomato/Unripe,1,732

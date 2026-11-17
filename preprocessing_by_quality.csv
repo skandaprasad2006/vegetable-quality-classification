@@ -1,0 +1,16 @@
+quality,operation,contrast,noise_sigma,sharpness
+Damaged,clahe,45.382,2.421,276.635
+Damaged,identity,41.76,0.923,92.207
+Damaged,median3+clahe,45.266,2.088,144.613
+Dried,clahe,45.897,2.946,426.823
+Dried,identity,42.198,1.089,158.493
+Dried,median3+clahe,45.758,2.361,211.038
+Old,clahe,43.963,2.451,278.516
+Old,identity,40.259,0.984,106.453
+Old,median3+clahe,43.939,2.224,150.041
+Ripe,clahe,44.322,2.315,227.058
+Ripe,identity,40.972,0.862,101.334
+Ripe,median3+clahe,44.309,2.103,135.126
+Unripe,clahe,44.165,2.345,210.509
+Unripe,identity,40.797,0.923,87.991
+Unripe,median3+clahe,44.173,2.073,135.166

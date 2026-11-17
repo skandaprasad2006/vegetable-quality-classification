@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-11-15T08:07:08",
+  "protocol": {
+    "evaluation": "single holdout validation split",
+    "train_images": 4286,
+    "validation_images": 929,
+    "test_images_used": 0,
+    "seed": 42,
+    "primary_metric": "macro F1",
+    "note": "All runs scored on the identical 929 validation images in identical order. The test split was never loaded. The Phase 1 grouped-CV figure (0.9199) is a separate historical benchmark and is not comparable."
+  },
+  "runs": {
+    "A5": {
+      "display_name": "Random Forest (83 handcrafted features)",
+      "run_id": "A5",
+      "stage": "P0",
+      "model_family": "classical",
+      "n_features": 83,
+      "n_parameters": null,
+      "config": {
+        "backbone": null,
+        "head": "single",
+        "input_size": null,
+        "batch_size": null,
+        "epochs": null,
+        "epochs_run": null,
+        "learning_rate": null,
+        "normalization": null,
+        "class_weighted": "balanced_subsample",
+        "n_estimators": 200
+      },
+      "quality": {
+        "macro_f1": 0.9539432365540804,
+        "macro_f1_ci95": {
+          "mean": 0.9537053209178445,
+          "lo": 0.9345247678566369,
+          "hi": 0.9701452686247435,
+          "std": 0.009015210950860657
+        },
+        "accuracy": 0.9644779332615716,
+        "weighted_f1": 0.9642039194760537,
+        "macro_precision": 0.9698596039064107,
+        "macro_recall": 0.9406971460339291,
+        "n_samples": 929,
+        "per_class": [
+          {
+            "class": "Damaged",
+            "index": 0,
+            "support": 46,
+            "precision": 1.0,
+            "recall": 0.8478260869565217,
+            "f1": 0.9176470588235294
+          },
+          {
+            "class": "Dried",
+            "index": 1,
+            "support": 210,
+            "precision": 0.9766355140186916,
+            "recall": 0.9952380952380953,
+            "f1": 0.9858490566037735
+          },
+          {
+            "class": "Old",
+            "index": 2,
+            "support": 314,
+            "precision": 0.9623824451410659,
+            "recall": 0.9777070063694268,
+            "f1": 0.9699842022116903
+          },
+          {
+            "class": "Ripe",
+            "index": 3,
+            "support": 267,
+            "precision": 0.9552238805970149,
+            "recall": 0.9588014981273408,
+            "f1": 0.9570093457943926
+          },
+          {
+            "class": "Unripe",
+            "index": 4,
+            "support": 92,
+            "precision": 0.9550561797752809,
+            "recall": 0.9239130434782609,
+            "f1": 0.9392265193370166
+          }
+        ],
+        "classes_absent": []
+      },
+      "timing": {
+        "train_time_s": 0.65,
+        "inference_ms_per_image": 0.101,
+        "batch1_ms_median": 0.101
+      },
+      "resources": {},
+      "artefacts": {
+        "model": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\final\\rf_handcrafted.joblib"
+      }
+    },
+    "A3": {
+      "display_name": "ResNet50 (frozen backbone)",
+      "run_id": "A3",
+      "stage": "P0",
+      "model_family": "deep learning",
+      "n_features": null,
+      "n_parameters": 23850629,
+      "config": {
+        "backbone": "resnet50",
+        "head": "single",
+        "input_size": 224,
+        "batch_size": 32,
+        "epochs": 15,
+        "epochs_run": 15,
+        "learning_rate": 0.001,
+        "normalization": "caffe",
+        "class_weighted": true,
+        "n_estimators": null
+      },
+      "quality": {
+        "macro_f1": 0.952133571143565,
+        "macro_f1_ci95": {
+          "mean": 0.9516361229422631,
+          "lo": 0.9342437143779299,
+          "hi": 0.9676395843992983,
+          "std": 0.008405152305379323
+        },
+        "accuracy": 0.9537136706135629,
+        "weighted_f1": 0.9537939248319242,
+        "macro_precision": 0.946559652875089,
+        "macro_recall": 0.9588267005326303,
+        "n_samples": 929,
+        "per_class": [
+          {
+            "class": "Damaged",
+            "index": 0,
+            "support": 46,
+            "precision": 0.88,
+            "recall": 0.9565217391304348,
+            "f1": 0.9166666666666666
+          },
+          {
+            "class": "Dried",
+            "index": 1,
+            "support": 210,
+            "precision": 0.9904761904761905,
+            "recall": 0.9904761904761905,
+            "f1": 0.9904761904761905
+          },
+          {
+            "class": "Old",
+            "index": 2,
+            "support": 314,
+            "precision": 0.9664429530201343,
+            "recall": 0.9171974522292994,
+            "f1": 0.9411764705882353
+          },
+          {
+            "class": "Ripe",
+            "index": 3,
+            "support": 267,
+            "precision": 0.9178571428571428,
+            "recall": 0.9625468164794008,
+            "f1": 0.9396709323583181
+          },
+          {
+            "class": "Unripe",
+            "index": 4,
+            "support": 92,
+            "precision": 0.978021978021978,
+            "recall": 0.967391304347826,
+            "f1": 0.9726775956284153
+          }
+        ],
+        "classes_absent": []
+      },
+      "timing": {
+        "train_time_s": 2338.2,
+        "inference_ms_per_image": 26.0,
+        "batch1_ms_median": 298.65
+      },
+      "resources": {
+        "samples": 2308,
+        "rss_mb_mean": 1615.8,
+        "rss_mb_max": 1761.3,
+        "cpu_percent_mean": 78.3,
+        "cpu_percent_max": 100.0,
+        "total_ram_gb": 15.71,
+        "aborted_reason": null
+      },
+      "artefacts": {
+        "best": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A3\\best.keras",
+        "last": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A3\\last.keras"
+      }
+    },
+    "A4": {
+      "display_name": "MobileNetV2 multi-task (vegetable + quality)",
+      "run_id": "A4",
+      "stage": "P0",
+      "model_family": "deep learning",
+      "n_features": null,
+      "n_parameters": 2587081,
+      "config": {
+        "backbone": "mobilenetv2",
+        "head": "multitask",
+        "input_size": 224,
+        "batch_size": 32,
+        "epochs": 15,
+        "epochs_run": 14,
+        "learning_rate": 0.001,
+        "normalization": "tf",
+        "class_weighted": true,
+        "n_estimators": null
+      },
+      "quality": {
+        "macro_f1": 0.9400573120836059,
+        "macro_f1_ci95": {
+          "mean": 0.9395186977788657,
+          "lo": 0.9215910676136043,
+          "hi": 0.9559907843161559,
+          "std": 0.008916385838697397
+        },
+        "accuracy": 0.9354144241119483,
+        "weighted_f1": 0.935018004203839,
+        "macro_precision": 0.937014067282608,
+        "macro_recall": 0.9446559699058772,
+        "n_samples": 929,
+        "per_class": [
+          {
+            "class": "Damaged",
+            "index": 0,
+            "support": 46,
+            "precision": 0.9361702127659575,
+            "recall": 0.9565217391304348,
+            "f1": 0.946236559139785
+          },
+          {
+            "class": "Dried",
+            "index": 1,
+            "support": 210,
+            "precision": 0.9764150943396226,
+            "recall": 0.9857142857142858,
+            "f1": 0.981042654028436
+          },
+          {
+            "class": "Old",
+            "index": 2,
+            "support": 314,
+            "precision": 0.9006024096385542,
+            "recall": 0.9522292993630573,
+            "f1": 0.9256965944272446
+          },
+          {
+            "class": "Ripe",
+            "index": 3,
+            "support": 267,
+            "precision": 0.9543568464730291,
+            "recall": 0.8614232209737828,
+            "f1": 0.905511811023622
+          },
+          {
+            "class": "Unripe",
+            "index": 4,
+            "support": 92,
+            "precision": 0.9175257731958762,
+            "recall": 0.967391304347826,
+            "f1": 0.9417989417989417
+          }
+        ],
+        "classes_absent": []
+      },
+      "timing": {
+        "train_time_s": 824.78,
+        "inference_ms_per_image": 9.56,
+        "batch1_ms_median": 152.22
+      },
+      "resources": {
+        "samples": 813,
+        "rss_mb_mean": 1235.8,
+        "rss_mb_max": 1260.2,
+        "cpu_percent_mean": 78.1,
+        "cpu_percent_max": 95.4,
+        "total_ram_gb": 15.71,
+        "aborted_reason": null
+      },
+      "artefacts": {
+        "best": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A4\\best.keras",
+        "last": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A4\\last.keras"
+      },
+      "vegetable": {
+        "macro_f1": 0.9974097781685227,
+        "macro_f1_ci95": {
+          "mean": 0.9973931320410411,
+          "lo": 0.9935170734540686,
+          "hi": 1.0,
+          "std": 0.0017614173842619364
+        },
+        "accuracy": 0.9978471474703983,
+        "weighted_f1": 0.9978472087349747,
+        "per_class": [
+          {
+            "class": "Bell Pepper",
+            "index": 0,
+            "support": 183,
+            "precision": 0.9945652173913043,
+            "recall": 1.0,
+            "f1": 0.997275204359673
+          },
+          {
+            "class": "Chile Pepper",
+            "index": 1,
+            "support": 192,
+            "precision": 1.0,
+            "recall": 0.9947916666666666,
+            "f1": 0.9973890339425587
+          },
+          {
+            "class": "New Mexico Green Chile",
+            "index": 2,
+            "support": 199,
+            "precision": 0.9949748743718593,
+            "recall": 0.9949748743718593,
+            "f1": 0.9949748743718593
+          },
+          {
+            "class": "Tomato",
+            "index": 3,
+            "support": 355,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "joint_both_correct_rate": 0.9332615715823466
+      }
+    },
+    "A2": {
+      "display_name": "MobileNetV2 (frozen backbone)",
+      "run_id": "A2",
+      "stage": "P0",
+      "model_family": "deep learning",
+      "n_features": null,
+      "n_parameters": 2422597,
+      "config": {
+        "backbone": "mobilenetv2",
+        "head": "single",
+        "input_size": 224,
+        "batch_size": 32,
+        "epochs": 15,
+        "epochs_run": 15,
+        "learning_rate": 0.001,
+        "normalization": "tf",
+        "class_weighted": true,
+        "n_estimators": null
+      },
+      "quality": {
+        "macro_f1": 0.9375808640074299,
+        "macro_f1_ci95": {
+          "mean": 0.9375090881747744,
+          "lo": 0.9205788441518041,
+          "hi": 0.9525317531608599,
+          "std": 0.008307296126512792
+        },
+        "accuracy": 0.9268030139935415,
+        "weighted_f1": 0.9263301246373727,
+        "macro_precision": 0.9362632849809573,
+        "macro_recall": 0.9400791840637941,
+        "n_samples": 929,
+        "per_class": [
+          {
+            "class": "Damaged",
+            "index": 0,
+            "support": 46,
+            "precision": 0.9565217391304348,
+            "recall": 0.9565217391304348,
+            "f1": 0.9565217391304348
+          },
+          {
+            "class": "Dried",
+            "index": 1,
+            "support": 210,
+            "precision": 0.9587155963302753,
+            "recall": 0.9952380952380953,
+            "f1": 0.9766355140186916
+          },
+          {
+            "class": "Old",
+            "index": 2,
+            "support": 314,
+            "precision": 0.8868501529051988,
+            "recall": 0.9235668789808917,
+            "f1": 0.9048361934477379
+          },
+          {
+            "class": "Ripe",
+            "index": 3,
+            "support": 267,
+            "precision": 0.9423868312757202,
+            "recall": 0.8576779026217228,
+            "f1": 0.8980392156862745
+          },
+          {
+            "class": "Unripe",
+            "index": 4,
+            "support": 92,
+            "precision": 0.9368421052631579,
+            "recall": 0.967391304347826,
+            "f1": 0.9518716577540107
+          }
+        ],
+        "classes_absent": []
+      },
+      "timing": {
+        "train_time_s": 862.35,
+        "inference_ms_per_image": 9.47,
+        "batch1_ms_median": 150.92
+      },
+      "resources": {
+        "samples": 850,
+        "rss_mb_mean": 1491.4,
+        "rss_mb_max": 1520.4,
+        "cpu_percent_mean": 82.6,
+        "cpu_percent_max": 100.0,
+        "total_ram_gb": 15.71,
+        "aborted_reason": null
+      },
+      "artefacts": {
+        "best": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A2\\best.keras",
+        "last": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A2\\last.keras"
+      }
+    }
+  },
+  "pairwise": {
+    "A5_vs_A3": {
+      "macro_f1_a": 0.9539432365540804,
+      "macro_f1_b": 0.952133571143565,
+      "delta": 0.0018096654105154153,
+      "delta_ci95": [
+        -0.0207450485504639,
+        0.02327492389879369
+      ],
+      "p_delta_le_zero": 0.415,
+      "mcnemar": {
+        "a_wrong_b_right": 26,
+        "a_right_b_wrong": 36,
+        "p_value": 0.25285439418811073
+      },
+      "significant_at_0.05": false
+    },
+    "A5_vs_A4": {
+      "macro_f1_a": 0.9539432365540804,
+      "macro_f1_b": 0.9400573120836059,
+      "delta": 0.013885924470474542,
+      "delta_ci95": [
+        -0.008114468732962576,
+        0.0341847510751314
+      ],
+      "p_delta_le_zero": 0.0995,
+      "mcnemar": {
+        "a_wrong_b_right": 19,
+        "a_right_b_wrong": 46,
+        "p_value": 0.0010900838044475786
+      },
+      "significant_at_0.05": true
+    },
+    "A5_vs_A2": {
+      "macro_f1_a": 0.9539432365540804,
+      "macro_f1_b": 0.9375808640074299,
+      "delta": 0.016362372546650517,
+      "delta_ci95": [
+        -0.005915695077425179,
+        0.03662109610680762
+      ],
+      "p_delta_le_zero": 0.068,
+      "mcnemar": {
+        "a_wrong_b_right": 20,
+        "a_right_b_wrong": 55,
+        "p_value": 6.494900196551852e-05
+      },
+      "significant_at_0.05": true
+    },
+    "A3_vs_A4": {
+      "macro_f1_a": 0.952133571143565,
+      "macro_f1_b": 0.9400573120836059,
+      "delta": 0.012076259059959127,
+      "delta_ci95": [
+        -0.006244381111589195,
+        0.028992734250915957
+      ],
+      "p_delta_le_zero": 0.098,
+      "mcnemar": {
+        "a_wrong_b_right": 23,
+        "a_right_b_wrong": 40,
+        "p_value": 0.04295654552438921
+      },
+      "significant_at_0.05": true
+    },
+    "A3_vs_A2": {
+      "macro_f1_a": 0.952133571143565,
+      "macro_f1_b": 0.9375808640074299,
+      "delta": 0.014552707136135101,
+      "delta_ci95": [
+        -0.0021541154561965344,
+        0.030665613840487882
+      ],
+      "p_delta_le_zero": 0.0485,
+      "mcnemar": {
+        "a_wrong_b_right": 23,
+        "a_right_b_wrong": 48,
+        "p_value": 0.004065116124638666
+      },
+      "significant_at_0.05": true
+    },
+    "A4_vs_A2": {
+      "macro_f1_a": 0.9400573120836059,
+      "macro_f1_b": 0.9375808640074299,
+      "delta": 0.0024764480761759744,
+      "delta_ci95": [
+        -0.010358716690185588,
+        0.015256578359842336
+      ],
+      "p_delta_le_zero": 0.3775,
+      "mcnemar": {
+        "a_wrong_b_right": 13,
+        "a_right_b_wrong": 21,
+        "p_value": 0.22948101302608848
+      },
+      "significant_at_0.05": false
+    }
+  },
+  "deployment_decision": {
+    "ranking_by_macro_f1": [
+      "A5",
+      "A3",
+      "A4",
+      "A2"
+    ],
+    "point_estimate_winner": "A5",
+    "runner_up": "A3",
+    "winner_beats_runner_up_significantly": false,
+    "head_to_head": {
+      "macro_f1_a": 0.9539432365540804,
+      "macro_f1_b": 0.952133571143565,
+      "delta": 0.0018096654105154153,
+      "delta_ci95": [
+        -0.0207450485504639,
+        0.02327492389879369
+      ],
+      "p_delta_le_zero": 0.415,
+      "mcnemar": {
+        "a_wrong_b_right": 26,
+        "a_right_b_wrong": 36,
+        "p_value": 0.25285439418811073
+      },
+      "significant_at_0.05": false
+    }
+  }
+}

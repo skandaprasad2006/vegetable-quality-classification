@@ -1,0 +1,139 @@
+{
+  "run_id": "A3",
+  "label": "ResNet50 frozen, quality only",
+  "stage": "P0",
+  "config": {
+    "stage": "P0",
+    "kind": "cnn",
+    "backbone": "resnet50",
+    "head": "single",
+    "freeze": true,
+    "epochs": 15,
+    "lr": 0.001,
+    "label": "ResNet50 frozen, quality only",
+    "preset": "tf_native",
+    "size": 224,
+    "batch": 32,
+    "seed": 42,
+    "augment": true,
+    "class_weight": true,
+    "es_patience": 4,
+    "es_min_delta": 0.0001,
+    "lr_patience": 2,
+    "lr_factor": 0.3
+  },
+  "model": {
+    "name": "resnet50_single_frozen",
+    "input_shape": [
+      224,
+      224,
+      3
+    ],
+    "output_names": [
+      "quality"
+    ],
+    "total_params": 23850629,
+    "trainable_params": 262917,
+    "frozen_params": 23587712,
+    "size_mb_fp32": 90.98
+  },
+  "normalization": "caffe",
+  "class_weight_values": {
+    "quality": {
+      "0": 3.8613,
+      "1": 0.8911,
+      "2": 0.6011,
+      "3": 0.688,
+      "4": 1.9935
+    }
+  },
+  "train_images": 4286,
+  "val_images": 929,
+  "epochs_planned": 15,
+  "epochs_run": 15,
+  "train_time_s": 2338.2,
+  "inference_ms_per_image_batched": 26.0,
+  "latency": {
+    "batch1_ms_median": 298.65,
+    "batch1_ms_p95": 312.91
+  },
+  "resources": {
+    "samples": 2308,
+    "rss_mb_mean": 1615.8,
+    "rss_mb_max": 1761.3,
+    "cpu_percent_mean": 78.3,
+    "cpu_percent_max": 100.0,
+    "total_ram_gb": 15.71,
+    "aborted_reason": null
+  },
+  "quality": {
+    "n_samples": 929,
+    "accuracy": 0.9537136706135629,
+    "macro_precision": 0.946559652875089,
+    "macro_recall": 0.9588267005326303,
+    "macro_f1": 0.952133571143565,
+    "weighted_f1": 0.9537939248319242,
+    "macro_f1_ci95": {
+      "mean": 0.9516361229422631,
+      "lo": 0.9342437143779299,
+      "hi": 0.9676395843992983,
+      "std": 0.008405152305379323
+    },
+    "classes_present": 5,
+    "classes_absent": [],
+    "per_class": [
+      {
+        "class": "Damaged",
+        "index": 0,
+        "support": 46,
+        "precision": 0.88,
+        "recall": 0.9565217391304348,
+        "f1": 0.9166666666666666
+      },
+      {
+        "class": "Dried",
+        "index": 1,
+        "support": 210,
+        "precision": 0.9904761904761905,
+        "recall": 0.9904761904761905,
+        "f1": 0.9904761904761905
+      },
+      {
+        "class": "Old",
+        "index": 2,
+        "support": 314,
+        "precision": 0.9664429530201343,
+        "recall": 0.9171974522292994,
+        "f1": 0.9411764705882353
+      },
+      {
+        "class": "Ripe",
+        "index": 3,
+        "support": 267,
+        "precision": 0.9178571428571428,
+        "recall": 0.9625468164794008,
+        "f1": 0.9396709323583181
+      },
+      {
+        "class": "Unripe",
+        "index": 4,
+        "support": 92,
+        "precision": 0.978021978021978,
+        "recall": 0.967391304347826,
+        "f1": 0.9726775956284153
+      }
+    ],
+    "class_names": [
+      "Damaged",
+      "Dried",
+      "Old",
+      "Ripe",
+      "Unripe"
+    ]
+  },
+  "checkpoints": {
+    "best": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A3\\best.keras",
+    "last": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A3\\last.keras"
+  },
+  "history_path": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\checkpoints\\A3\\history.json"
+}

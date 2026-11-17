@@ -1,0 +1,14 @@
+A2 quality classification (validation)
+======================================
+              precision    recall  f1-score   support
+
+     Damaged     0.9565    0.9565    0.9565        46
+       Dried     0.9587    0.9952    0.9766       210
+         Old     0.8869    0.9236    0.9048       314
+        Ripe     0.9424    0.8577    0.8980       267
+      Unripe     0.9368    0.9674    0.9519        92
+
+    accuracy                         0.9268       929
+   macro avg     0.9363    0.9401    0.9376       929
+weighted avg     0.9275    0.9268    0.9263       929
+

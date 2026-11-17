@@ -1,0 +1,127 @@
+{
+  "n_images": 25,
+  "device": "CPU (TensorFlow CPU:0)",
+  "results": {
+    "A5": {
+      "model": "A5 Random Forest",
+      "components_ms": {
+        "decode_resize": {
+          "n": 25,
+          "median_ms": 1.38,
+          "mean_ms": 1.35,
+          "p95_ms": 1.63,
+          "min_ms": 0.85,
+          "max_ms": 1.75
+        },
+        "segmentation": {
+          "n": 25,
+          "median_ms": 2.2,
+          "mean_ms": 5.28,
+          "p95_ms": 2.54,
+          "min_ms": 2.02,
+          "max_ms": 78.81
+        },
+        "feature_extraction": {
+          "n": 25,
+          "median_ms": 9.2,
+          "mean_ms": 11.36,
+          "p95_ms": 15.05,
+          "min_ms": 7.28,
+          "max_ms": 42.37
+        },
+        "predict": {
+          "n": 25,
+          "median_ms": 6.67,
+          "mean_ms": 7.26,
+          "p95_ms": 7.04,
+          "min_ms": 6.39,
+          "max_ms": 21.51
+        }
+      },
+      "end_to_end": {
+        "n": 25,
+        "median_ms": 19.73,
+        "mean_ms": 25.25,
+        "p95_ms": 25.69,
+        "min_ms": 16.85,
+        "max_ms": 143.85
+      }
+    },
+    "A3": {
+      "model": "A3",
+      "model_load_s": 1.37,
+      "components_ms": {
+        "decode_resize": {
+          "n": 25,
+          "median_ms": 1.55,
+          "mean_ms": 1.54,
+          "p95_ms": 1.92,
+          "min_ms": 0.83,
+          "max_ms": 2.55
+        },
+        "normalise": {
+          "n": 25,
+          "median_ms": 1.14,
+          "mean_ms": 1.38,
+          "p95_ms": 1.63,
+          "min_ms": 0.87,
+          "max_ms": 6.67
+        },
+        "forward_pass": {
+          "n": 25,
+          "median_ms": 300.08,
+          "mean_ms": 307.19,
+          "p95_ms": 356.67,
+          "min_ms": 274.53,
+          "max_ms": 363.67
+        }
+      },
+      "end_to_end": {
+        "n": 25,
+        "median_ms": 302.81,
+        "mean_ms": 310.11,
+        "p95_ms": 359.07,
+        "min_ms": 277.26,
+        "max_ms": 366.54
+      }
+    },
+    "A4": {
+      "model": "A4",
+      "model_load_s": 0.99,
+      "components_ms": {
+        "decode_resize": {
+          "n": 25,
+          "median_ms": 0.87,
+          "mean_ms": 0.98,
+          "p95_ms": 1.42,
+          "min_ms": 0.72,
+          "max_ms": 1.78
+        },
+        "normalise": {
+          "n": 25,
+          "median_ms": 0.78,
+          "mean_ms": 0.95,
+          "p95_ms": 1.06,
+          "min_ms": 0.51,
+          "max_ms": 5.19
+        },
+        "forward_pass": {
+          "n": 25,
+          "median_ms": 170.81,
+          "mean_ms": 167.47,
+          "p95_ms": 184.39,
+          "min_ms": 141.63,
+          "max_ms": 186.88
+        }
+      },
+      "end_to_end": {
+        "n": 25,
+        "median_ms": 172.81,
+        "mean_ms": 169.4,
+        "p95_ms": 186.95,
+        "min_ms": 143.01,
+        "max_ms": 188.15
+      }
+    }
+  }
+}

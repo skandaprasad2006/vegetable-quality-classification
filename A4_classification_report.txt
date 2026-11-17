@@ -1,0 +1,14 @@
+A4 quality classification (validation)
+======================================
+              precision    recall  f1-score   support
+
+     Damaged     0.9362    0.9565    0.9462        46
+       Dried     0.9764    0.9857    0.9810       210
+         Old     0.9006    0.9522    0.9257       314
+        Ripe     0.9544    0.8614    0.9055       267
+      Unripe     0.9175    0.9674    0.9418        92
+
+    accuracy                         0.9354       929
+   macro avg     0.9370    0.9447    0.9401       929
+weighted avg     0.9366    0.9354    0.9350       929
+

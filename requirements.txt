@@ -1,0 +1,51 @@
+# Vegetable Quality and Freshness Detection — Python dependencies
+#
+# Python 3.12 is REQUIRED. TensorFlow publishes no wheels for Python 3.14/3.15,
+# which are the only interpreters the host machine provides by default; the
+# project therefore provisions CPython 3.12 with uv and builds `.venv` from it.
+# See Admin/decisions.md D-002 and D-003.
+#
+# Pinned exactly to the versions the reported results were produced with.
+# `pip install -r requirements.txt` into a fresh 3.12 environment reproduces them.
+
+# --- core numerics -----------------------------------------------------------
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+
+# --- image processing & computer vision --------------------------------------
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+
+# --- machine learning --------------------------------------------------------
+scikit-learn==1.9.1
+tensorflow-cpu==2.21.0
+
+# --- visualisation -----------------------------------------------------------
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- web application (Phase 3) -----------------------------------------------
+streamlit==1.67.0
+
+# --- utilities ---------------------------------------------------------------
+Pillow==13.0.0
+tqdm==4.70.1
+PyYAML==6.0.3
+
+# --- testing -----------------------------------------------------------------
+pytest==9.2.0
+
+# --- evidence capture (optional, Phase 3) ------------------------------------
+# Used only by tools/capture_screenshots.py to drive the locally installed
+# Chrome. No browser binary is downloaded; the app does not need this package.
+playwright==1.65.2
+
+# --- notebook execution (Phase 1 evidence artefacts) -------------------------
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.10.4
+ipykernel==7.4.0
+
+# --- process/memory measurement ----------------------------------------------
+psutil==7.2.2

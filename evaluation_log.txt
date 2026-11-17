@@ -1,0 +1,18 @@
+test evaluation started 2026-11-15T08:40:56
+python 3.12.16 on Windows-11-10.0.26300-SP0
+split check: {"n_test": 935, "n_train": 4286, "n_validation": 929, "files_missing_on_disk": 0, "group_ids_shared_with_train_or_validation": 0, "sha256_shared_with_train_or_validation": 0, "quality_classes_present": ["Damaged", "Dried", "Old", "Ripe", "Unripe"], "per_class_support": {"Old": 304, "Ripe": 274, "Dried": 217, "Unripe": 91, "Damaged": 49}, "per_vegetable_support": {"Tomato": 353, "Chile Pepper": 201, "New Mexico Green Chile": 201, "Bell Pepper": 180}}
+evaluating 935 test images across 5 quality classes
+features extracted in 6.5s (935 rows x 5 classes)
+model: rf_handcrafted.joblib sha256=53db2b148c0c1e3b9722e610c2c47c9dcc758859049b38ff434c04d10cdd83d3
+class order: ['Damaged', 'Dried', 'Old', 'Ripe', 'Unripe']
+inference: 935 images in 0.04s (0.05 ms/image, batched)
+registry: A5 test columns populated
+
+TEST MACRO F1 = 0.9350 [0.9137, 0.9553]
+TEST ACCURACY = 0.9497  WEIGHTED F1 = 0.9492
+  Damaged  support= 49  P=0.9744  R=0.7755  F1=0.8636
+  Dried    support=217  P=0.9727  R=0.9862  F1=0.9794
+  Old      support=304  P=0.9470  R=0.9408  F1=0.9439
+  Ripe     support=274  P=0.9271  R=0.9745  F1=0.9502
+  Unripe   support= 91  P=0.9651  R=0.9121  F1=0.9379
+elapsed 9.3s

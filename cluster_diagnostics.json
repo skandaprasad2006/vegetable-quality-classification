@@ -1,0 +1,264 @@
+{
+  "n_images": 6150,
+  "threshold_used_in_phase1": 6,
+  "sweep": [
+    {
+      "threshold": 0,
+      "multi_components": 6,
+      "images_in_multi": 12,
+      "largest_component": 2,
+      "largest_diameter": 0,
+      "largest_component_labels": 1,
+      "largest_component_vegetables": 1,
+      "label_pure_components": 6,
+      "label_pure_share": 1.0,
+      "largest_pure_component": 2,
+      "components_spanning_labels": 0,
+      "images_in_conflicting_components": 0
+    },
+    {
+      "threshold": 1,
+      "multi_components": 33,
+      "images_in_multi": 67,
+      "largest_component": 3,
+      "largest_diameter": 2,
+      "largest_component_labels": 1,
+      "largest_component_vegetables": 1,
+      "label_pure_components": 32,
+      "label_pure_share": 0.9697,
+      "largest_pure_component": 3,
+      "components_spanning_labels": 1,
+      "images_in_conflicting_components": 2
+    },
+    {
+      "threshold": 2,
+      "multi_components": 118,
+      "images_in_multi": 251,
+      "largest_component": 5,
+      "largest_diameter": 4,
+      "largest_component_labels": 1,
+      "largest_component_vegetables": 1,
+      "label_pure_components": 116,
+      "label_pure_share": 0.9831,
+      "largest_pure_component": 5,
+      "components_spanning_labels": 2,
+      "images_in_conflicting_components": 4
+    },
+    {
+      "threshold": 3,
+      "multi_components": 228,
+      "images_in_multi": 518,
+      "largest_component": 8,
+      "largest_diameter": 8,
+      "largest_component_labels": 2,
+      "largest_component_vegetables": 2,
+      "label_pure_components": 218,
+      "label_pure_share": 0.9561,
+      "largest_pure_component": 5,
+      "components_spanning_labels": 10,
+      "images_in_conflicting_components": 31
+    },
+    {
+      "threshold": 4,
+      "multi_components": 369,
+      "images_in_multi": 918,
+      "largest_component": 25,
+      "largest_diameter": 18,
+      "largest_component_labels": 3,
+      "largest_component_vegetables": 2,
+      "label_pure_components": 348,
+      "label_pure_share": 0.9431,
+      "largest_pure_component": 6,
+      "components_spanning_labels": 21,
+      "images_in_conflicting_components": 119
+    },
+    {
+      "threshold": 5,
+      "multi_components": 498,
+      "images_in_multi": 1482,
+      "largest_component": 172,
+      "largest_diameter": 29,
+      "largest_component_labels": 11,
+      "largest_component_vegetables": 4,
+      "label_pure_components": 447,
+      "label_pure_share": 0.8976,
+      "largest_pure_component": 9,
+      "components_spanning_labels": 51,
+      "images_in_conflicting_components": 401
+    },
+    {
+      "threshold": 6,
+      "multi_components": 572,
+      "images_in_multi": 2182,
+      "largest_component": 732,
+      "largest_diameter": 39,
+      "largest_component_labels": 18,
+      "largest_component_vegetables": 4,
+      "label_pure_components": 530,
+      "label_pure_share": 0.9266,
+      "largest_pure_component": 9,
+      "components_spanning_labels": 42,
+      "images_in_conflicting_components": 866
+    },
+    {
+      "threshold": 8,
+      "multi_components": 490,
+      "images_in_multi": 3733,
+      "largest_component": 2349,
+      "largest_diameter": 45,
+      "largest_component_labels": 19,
+      "largest_component_vegetables": 4,
+      "label_pure_components": 453,
+      "label_pure_share": 0.9245,
+      "largest_pure_component": 10,
+      "components_spanning_labels": 37,
+      "images_in_conflicting_components": 2525
+    },
+    {
+      "threshold": 10,
+      "multi_components": 243,
+      "images_in_multi": 4975,
+      "largest_component": 4267,
+      "largest_diameter": 54,
+      "largest_component_labels": 19,
+      "largest_component_vegetables": 4,
+      "label_pure_components": 231,
+      "label_pure_share": 0.9506,
+      "largest_pure_component": 21,
+      "components_spanning_labels": 12,
+      "images_in_conflicting_components": 4319
+    }
+  ],
+  "largest_components_at_used_threshold": [
+    {
+      "size": 732,
+      "diameter": 39,
+      "distinct_labels": 18,
+      "distinct_vegetables": 4,
+      "example": "1. Bell Pepper/Damaged/IMG_20220609_091124.jpg"
+    },
+    {
+      "size": 9,
+      "diameter": 16,
+      "distinct_labels": 1,
+      "distinct_vegetables": 1,
+      "example": "4. Tomato/Old/IMG_20220530_084033.jpg"
+    },
+    {
+      "size": 9,
+      "diameter": 14,
+      "distinct_labels": 1,
+      "distinct_vegetables": 1,
+      "example": "4. Tomato/Old/IMG_20220530_084255.jpg"
+    },
+    {
+      "size": 8,
+      "diameter": 17,
+      "distinct_labels": 2,
+      "distinct_vegetables": 2,
+      "example": "2. Chile Pepper/Damaged/IMG_20220916_080708.jpg"
+    },
+    {
+      "size": 7,
+      "diameter": 12,
+      "distinct_labels": 2,
+      "distinct_vegetables": 2,
+      "example": "1. Bell Pepper/Old/IMG_20220607_091039.jpg"
+    },
+    {
+      "size": 7,
+      "diameter": 14,
+      "distinct_labels": 1,
+      "distinct_vegetables": 1,
+      "example": "1. Bell Pepper/Ripe/IMG_20220531_092306.jpg"
+    },
+    {
+      "size": 7,
+      "diameter": 12,
+      "distinct_labels": 1,
+      "distinct_vegetables": 1,
+      "example": "2. Chile Pepper/Old/IMG_20220604_094319.jpg"
+    },
+    {
+      "size": 7,
+      "diameter": 10,
+      "distinct_labels": 2,
+      "distinct_vegetables": 2,
+      "example": "2. Chile Pepper/Unripe/IMG_20220531_093432.jpg"
+    }
+  ],
+  "giant_component": {
+    "size": 732,
+    "diameter": 39,
+    "share_of_corpus": 0.119,
+    "split_membership": {
+      "train": 732
+    },
+    "distinct_vegetables": [
+      "Bell Pepper",
+      "Chile Pepper",
+      "New Mexico Green Chile",
+      "Tomato"
+    ]
+  },
+  "split_impact": [
+    {
+      "threshold": 2,
+      "groups": 6017,
+      "counts": {
+        "train": 4304,
+        "validation": 925,
+        "test": 921
+      },
+      "fractions": {
+        "train": 0.6998,
+        "validation": 0.1504,
+        "test": 0.1498
+      },
+      "groups_spanning_splits": 0,
+      "cells_in_every_split": true,
+      "changed_vs_threshold_2": 0
+    },
+    {
+      "threshold": 4,
+      "groups": 5601,
+      "counts": {
+        "train": 4302,
+        "validation": 928,
+        "test": 920
+      },
+      "fractions": {
+        "train": 0.6995,
+        "validation": 0.1509,
+        "test": 0.1496
+      },
+      "groups_spanning_splits": 0,
+      "cells_in_every_split": true,
+      "changed_vs_threshold_2": 2754
+    },
+    {
+      "threshold": 6,
+      "groups": 4540,
+      "counts": {
+        "train": 4286,
+        "validation": 929,
+        "test": 935
+      },
+      "fractions": {
+        "train": 0.6969,
+        "validation": 0.1511,
+        "test": 0.152
+      },
+      "groups_spanning_splits": 0,
+      "cells_in_every_split": true,
+      "changed_vs_threshold_2": 2813
+    }
+  ],
+  "verdict": {
+    "chaining_suspected": true,
+    "largest_component": 732,
+    "largest_diameter": 39,
+    "recommended_threshold": 2,
+    "recommendation_reason": "At threshold 2 the largest component is 5 images with diameter 4 and 98.3% of components are label-pure; at 6 one component absorbs 732 images spanning 18 labels with diameter 39, which is transitive chaining."
+  }
+}

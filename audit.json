@@ -1,0 +1,476 @@
+{
+  "viewport_runs": [],
+  "pages": {
+    "01_home": {
+      "url": "http://localhost:8501/",
+      "samples": [
+        {
+          "label": "page title",
+          "text": "VegCheck",
+          "fontSizePx": 34.4,
+          "fontWeight": "700",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "section heading",
+          "text": "1 \u00b7 Provide an image",
+          "fontSizePx": 19.52,
+          "fontWeight": "600",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "body text",
+          "text": "Image Processing & Computer Vision \u00b7 24AM3504",
+          "fontSizePx": 11.2,
+          "fontWeight": "600",
+          "color": "rgba(255, 255, 255, 0.72)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "caption",
+          "text": "JPG, JPEG or PNG \u00b7 up to 15 MB \u00b7 minimum 64\u00d764 pixels",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "button",
+          "text": "keyboard_double_arrow_left",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgba(13, 43, 33, 0.6)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "sidebar nav link",
+          "text": "\ud83d\udd0dPredict quality",
+          "fontSizePx": 14.4,
+          "fontWeight": "680",
+          "color": "rgb(10, 86, 54)",
+          "background": "rgb(233, 247, 240)",
+          "contrast": 7.94,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "info box",
+          "text": "No image selected. Upload a photograph to run a prediction.",
+          "fontSizePx": 16,
+          "fontWeight": "400",
+          "color": "rgb(36, 79, 180)",
+          "background": "rgb(237, 245, 255)",
+          "contrast": 6.7,
+          "grade": "pass_AA"
+        }
+      ],
+      "images_without_alt": 0,
+      "images_total": 0,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "VegCheck"
+        },
+        {
+          "tag": "H3",
+          "text": "1 \u00b7 Provide an image"
+        },
+        {
+          "tag": "H3",
+          "text": "Prediction history"
+        }
+      ],
+      "focusable_elements": 16,
+      "horizontal_overflow": false
+    },
+    "03_dataset": {
+      "url": "http://localhost:8501/Dataset_Information",
+      "samples": [
+        {
+          "label": "page title",
+          "text": "Dataset information",
+          "fontSizePx": 27.2,
+          "fontWeight": "700",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "section heading",
+          "text": "Source",
+          "fontSizePx": 19.52,
+          "fontWeight": "600",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "body text",
+          "text": "Dataset",
+          "fontSizePx": 11.2,
+          "fontWeight": "600",
+          "color": "rgba(255, 255, 255, 0.72)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "caption",
+          "text": "Figures come from datasets/metadata/split_summary.json, audi",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "metric label",
+          "text": "Total images",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(255, 255, 255)",
+          "contrast": 15.17,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "metric value",
+          "text": "6,150",
+          "fontSizePx": 22.72,
+          "fontWeight": "700",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(255, 255, 255)",
+          "contrast": 15.17,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "button",
+          "text": "keyboard_double_arrow_left",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgba(13, 43, 33, 0.6)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "sidebar nav link",
+          "text": "\ud83d\udd0dPredict quality",
+          "fontSizePx": 14.4,
+          "fontWeight": "540",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        }
+      ],
+      "images_without_alt": 0,
+      "images_total": 0,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Dataset information"
+        },
+        {
+          "tag": "H3",
+          "text": "Source"
+        },
+        {
+          "tag": "H3",
+          "text": "Split"
+        },
+        {
+          "tag": "H3",
+          "text": "Quality class distribution"
+        },
+        {
+          "tag": "H3",
+          "text": "Vegetable \u00d7 quality"
+        },
+        {
+          "tag": "H3",
+          "text": "Dataset limitations"
+        }
+      ],
+      "focusable_elements": 25,
+      "horizontal_overflow": false
+    },
+    "04_model_performance": {
+      "url": "http://localhost:8501/Model_Performance",
+      "samples": [
+        {
+          "label": "page title",
+          "text": "Model performance",
+          "fontSizePx": 27.2,
+          "fontWeight": "700",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "section heading",
+          "text": "Deployed model",
+          "fontSizePx": 19.52,
+          "fontWeight": "600",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "body text",
+          "text": "Evaluation",
+          "fontSizePx": 11.2,
+          "fontWeight": "600",
+          "color": "rgba(255, 255, 255, 0.72)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "caption",
+          "text": "Source: evaluation/metrics/p0_comparison.json, written by sr",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "metric label",
+          "text": "Architecture",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(255, 255, 255)",
+          "contrast": 15.17,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "metric value",
+          "text": "Random Forest",
+          "fontSizePx": 22.72,
+          "fontWeight": "700",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(255, 255, 255)",
+          "contrast": 15.17,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "button",
+          "text": "keyboard_double_arrow_left",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgba(13, 43, 33, 0.6)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "sidebar nav link",
+          "text": "\ud83d\udd0dPredict quality",
+          "fontSizePx": 14.4,
+          "fontWeight": "540",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        }
+      ],
+      "images_without_alt": 0,
+      "images_total": 2,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Model performance"
+        },
+        {
+          "tag": "H3",
+          "text": "Deployed model"
+        },
+        {
+          "tag": "H3",
+          "text": "All P0 experiments"
+        },
+        {
+          "tag": "H3",
+          "text": "Per-class performance (deployed model)"
+        },
+        {
+          "tag": "H3",
+          "text": "Confusion matrices"
+        },
+        {
+          "tag": "H3",
+          "text": "Official test result"
+        },
+        {
+          "tag": "H3",
+          "text": "Evaluation schemes \u2014 do not mix these"
+        },
+        {
+          "tag": "H3",
+          "text": "Inference timing"
+        },
+        {
+          "tag": "H3",
+          "text": "How this model fails"
+        }
+      ],
+      "focusable_elements": 35,
+      "horizontal_overflow": false
+    },
+    "05_about": {
+      "url": "http://localhost:8501/About_Project",
+      "samples": [
+        {
+          "label": "page title",
+          "text": "About this project",
+          "fontSizePx": 27.2,
+          "fontWeight": "700",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "section heading",
+          "text": "Method in brief",
+          "fontSizePx": 19.52,
+          "fontWeight": "600",
+          "color": "rgb(13, 43, 33)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "body text",
+          "text": "About",
+          "fontSizePx": 11.2,
+          "fontWeight": "600",
+          "color": "rgba(255, 255, 255, 0.72)",
+          "background": "rgb(10, 59, 42)",
+          "contrast": 12.56,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "caption",
+          "text": "Predictions are visual classifications only. Do not use them",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "button",
+          "text": "keyboard_double_arrow_left",
+          "fontSizePx": 14,
+          "fontWeight": "400",
+          "color": "rgba(13, 43, 33, 0.6)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 14.37,
+          "grade": "pass_AA"
+        },
+        {
+          "label": "sidebar nav link",
+          "text": "\ud83d\udd0dPredict quality",
+          "fontSizePx": 14.4,
+          "fontWeight": "540",
+          "color": "rgb(60, 83, 73)",
+          "background": "rgb(245, 250, 247)",
+          "contrast": 7.88,
+          "grade": "pass_AA"
+        }
+      ],
+      "images_without_alt": 0,
+      "images_total": 0,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "About this project"
+        },
+        {
+          "tag": "H3",
+          "text": "Method in brief"
+        },
+        {
+          "tag": "H3",
+          "text": "Why a Random Forest is deployed"
+        },
+        {
+          "tag": "H3",
+          "text": "Known limitations"
+        },
+        {
+          "tag": "H3",
+          "text": "Technology"
+        },
+        {
+          "tag": "H3",
+          "text": "Where to read more"
+        }
+      ],
+      "focusable_elements": 15,
+      "horizontal_overflow": false
+    }
+  },
+  "keyboard": {
+    "tab_sequence": [
+      "Skip to main content",
+      "\ud83d\udd0d\nPredict quality",
+      "\ud83d\udcca\nDataset",
+      "\ud83d\udcc8\nPerformance",
+      "\u2139\ufe0f\nAbout",
+      "Deploy",
+      "IMAGE PROCESSING & COMPUTER VISION \u00b7 24A",
+      "Link to heading",
+      "keyboard_arrow_right\n\nWhat this system d",
+      "Link to heading",
+      "INPUT",
+      "upload\n\nUpload"
+    ],
+    "reachable_distinct": 11,
+    "nav_reachable": true
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "horizontal_overflow": false,
+    "doc_width": 390,
+    "viewport_width": 390,
+    "focusable_elements": 16,
+    "min_contrast": 6.7
+  },
+  "summary": {
+    "text_samples": 29,
+    "below_AA": 0,
+    "below_AA_detail": [],
+    "min_contrast": 6.7,
+    "pages_with_h1": 4,
+    "pages": 4,
+    "images_without_alt": 0,
+    "images_total": 2,
+    "horizontal_overflow_desktop": false,
+    "note": "Automated checks only. No WCAG conformance is claimed."
+  }
+}

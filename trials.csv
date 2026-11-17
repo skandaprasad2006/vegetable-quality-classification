@@ -1,0 +1,611 @@
+file_name,vegetable,true_quality,condition,condition_description,predicted_quality,confidence,correct,runner_up,runner_up_confidence,segmentation_ok,latency_ms
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,control,unmodified test image,Damaged,0.77,1,Old,0.095,True,142.3
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,rotated_15deg,"rotated 15 degrees, reflected borders",Damaged,0.78,1,Old,0.105,True,17.45
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.55,0,Damaged,0.17,True,16.57
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,jpeg_q30,JPEG recompressed at quality 30,Damaged,0.545,1,Dried,0.22,True,18.89
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,dim_lighting,brightness x 0.55 (dim room),Damaged,0.37,1,Old,0.295,True,14.94
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.405,0,Damaged,0.3,True,15.41
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,low_contrast,contrast compressed to 55%,Damaged,0.35,1,Old,0.255,True,15.64
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.525,0,Damaged,0.255,True,15.5
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,vignette,radial illumination falloff,Damaged,0.315,1,Ripe,0.265,True,25.2
+IMG_20220916_080345.jpg,Chile Pepper,Damaged,tight_crop,central 70% crop (closer framing),Damaged,0.665,1,Old,0.215,True,17.33
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,control,unmodified test image,Ripe,0.41,0,Old,0.285,True,22.33
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,rotated_15deg,"rotated 15 degrees, reflected borders",Damaged,0.42,1,Ripe,0.35,True,24.1
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.5,0,Damaged,0.225,True,22.8
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,jpeg_q30,JPEG recompressed at quality 30,Old,0.42,0,Damaged,0.36,True,24.59
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,dim_lighting,brightness x 0.55 (dim room),Ripe,0.41,0,Old,0.29,True,22.57
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.44,0,Old,0.21,True,22.79
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,low_contrast,contrast compressed to 55%,Ripe,0.405,0,Old,0.32,True,22.85
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.5,0,Damaged,0.245,True,22.53
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,vignette,radial illumination falloff,Ripe,0.47,0,Old,0.225,True,26.47
+IMG_20220916_080141.jpg,New Mexico Green Chile,Damaged,tight_crop,central 70% crop (closer framing),Ripe,0.445,0,Old,0.205,True,24.41
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,control,unmodified test image,Ripe,0.53,0,Damaged,0.355,True,20.31
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.71,0,Damaged,0.185,True,19.94
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.755,0,Damaged,0.15,True,19.35
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.47,0,Damaged,0.385,True,20.11
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,dim_lighting,brightness x 0.55 (dim room),Damaged,0.515,1,Old,0.265,True,20.4
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.58,0,Damaged,0.205,True,20.11
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,low_contrast,contrast compressed to 55%,Damaged,0.485,1,Old,0.265,True,20.72
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.75,0,Damaged,0.15,True,20.38
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,vignette,radial illumination falloff,Ripe,0.56,0,Damaged,0.21,True,24.17
+IMG_20220916_081556.jpg,New Mexico Green Chile,Damaged,tight_crop,central 70% crop (closer framing),Ripe,0.47,0,Damaged,0.25,True,27.99
+IMG_20220614_082051.jpg,Bell Pepper,Dried,control,unmodified test image,Dried,0.915,1,Old,0.085,True,20.58
+IMG_20220614_082051.jpg,Bell Pepper,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.81,1,Old,0.15,True,20.82
+IMG_20220614_082051.jpg,Bell Pepper,Dried,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.435,0,Old,0.39,True,20.43
+IMG_20220614_082051.jpg,Bell Pepper,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.83,1,Old,0.125,True,20.74
+IMG_20220614_082051.jpg,Bell Pepper,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.52,0,Dried,0.26,True,20.75
+IMG_20220614_082051.jpg,Bell Pepper,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.54,1,Old,0.26,True,20.55
+IMG_20220614_082051.jpg,Bell Pepper,Dried,low_contrast,contrast compressed to 55%,Old,0.515,0,Dried,0.245,True,21.5
+IMG_20220614_082051.jpg,Bell Pepper,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.41,0,Old,0.39,True,21.58
+IMG_20220614_082051.jpg,Bell Pepper,Dried,vignette,radial illumination falloff,Old,0.74,0,Dried,0.16,True,26.54
+IMG_20220614_082051.jpg,Bell Pepper,Dried,tight_crop,central 70% crop (closer framing),Old,0.55,0,Dried,0.2,True,33.55
+IMG_20220614_082321.jpg,Bell Pepper,Dried,control,unmodified test image,Dried,0.905,1,Old,0.07,True,32.49
+IMG_20220614_082321.jpg,Bell Pepper,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.74,1,Old,0.22,True,32.04
+IMG_20220614_082321.jpg,Bell Pepper,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.515,0,Ripe,0.365,True,26.85
+IMG_20220614_082321.jpg,Bell Pepper,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.73,1,Old,0.2,True,27.51
+IMG_20220614_082321.jpg,Bell Pepper,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.615,0,Dried,0.23,True,31.29
+IMG_20220614_082321.jpg,Bell Pepper,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.585,1,Old,0.28,True,29.88
+IMG_20220614_082321.jpg,Bell Pepper,Dried,low_contrast,contrast compressed to 55%,Old,0.6,0,Dried,0.215,True,30.93
+IMG_20220614_082321.jpg,Bell Pepper,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.495,0,Ripe,0.375,True,38.96
+IMG_20220614_082321.jpg,Bell Pepper,Dried,vignette,radial illumination falloff,Old,0.715,0,Dried,0.22,True,30.53
+IMG_20220614_082321.jpg,Bell Pepper,Dried,tight_crop,central 70% crop (closer framing),Old,0.42,0,Dried,0.32,True,36.22
+IMG_20220614_082529.jpg,Bell Pepper,Dried,control,unmodified test image,Dried,0.925,1,Damaged,0.04,True,23.38
+IMG_20220614_082529.jpg,Bell Pepper,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.975,1,Damaged,0.015,True,24.13
+IMG_20220614_082529.jpg,Bell Pepper,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.57,0,Ripe,0.19,True,23.76
+IMG_20220614_082529.jpg,Bell Pepper,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.825,1,Old,0.11,True,26.86
+IMG_20220614_082529.jpg,Bell Pepper,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.595,0,Dried,0.28,True,24.13
+IMG_20220614_082529.jpg,Bell Pepper,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.62,1,Old,0.255,True,25.3
+IMG_20220614_082529.jpg,Bell Pepper,Dried,low_contrast,contrast compressed to 55%,Old,0.565,0,Dried,0.325,True,22.86
+IMG_20220614_082529.jpg,Bell Pepper,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.49,0,Ripe,0.215,True,23.24
+IMG_20220614_082529.jpg,Bell Pepper,Dried,vignette,radial illumination falloff,Dried,0.6,1,Old,0.34,True,24.59
+IMG_20220614_082529.jpg,Bell Pepper,Dried,tight_crop,central 70% crop (closer framing),Dried,0.645,1,Old,0.255,True,29.27
+IMG_20220615_092322.jpg,Bell Pepper,Dried,control,unmodified test image,Dried,0.745,1,Old,0.2,True,25.04
+IMG_20220615_092322.jpg,Bell Pepper,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.52,1,Old,0.34,True,25.29
+IMG_20220615_092322.jpg,Bell Pepper,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.46,0,Unripe,0.25,True,23.41
+IMG_20220615_092322.jpg,Bell Pepper,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.67,1,Old,0.245,True,40.97
+IMG_20220615_092322.jpg,Bell Pepper,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.545,0,Dried,0.295,True,47.7
+IMG_20220615_092322.jpg,Bell Pepper,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.715,1,Old,0.24,True,24.45
+IMG_20220615_092322.jpg,Bell Pepper,Dried,low_contrast,contrast compressed to 55%,Old,0.5,0,Dried,0.315,True,40.94
+IMG_20220615_092322.jpg,Bell Pepper,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.465,0,Unripe,0.245,True,25.48
+IMG_20220615_092322.jpg,Bell Pepper,Dried,vignette,radial illumination falloff,Old,0.55,0,Dried,0.245,True,28.36
+IMG_20220615_092322.jpg,Bell Pepper,Dried,tight_crop,central 70% crop (closer framing),Old,0.465,0,Ripe,0.265,True,35.61
+IMG_20220614_082755.jpg,Chile Pepper,Dried,control,unmodified test image,Dried,0.545,1,Old,0.405,True,17.2
+IMG_20220614_082755.jpg,Chile Pepper,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.46,1,Old,0.44,True,20.47
+IMG_20220614_082755.jpg,Chile Pepper,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.485,0,Dried,0.26,True,18.95
+IMG_20220614_082755.jpg,Chile Pepper,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.495,1,Old,0.35,True,19.48
+IMG_20220614_082755.jpg,Chile Pepper,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.585,0,Dried,0.16,True,20.0
+IMG_20220614_082755.jpg,Chile Pepper,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.605,1,Old,0.25,True,23.17
+IMG_20220614_082755.jpg,Chile Pepper,Dried,low_contrast,contrast compressed to 55%,Old,0.555,0,Dried,0.22,True,34.09
+IMG_20220614_082755.jpg,Chile Pepper,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.52,0,Dried,0.26,True,33.44
+IMG_20220614_082755.jpg,Chile Pepper,Dried,vignette,radial illumination falloff,Unripe,0.54,0,Old,0.31,True,50.48
+IMG_20220614_082755.jpg,Chile Pepper,Dried,tight_crop,central 70% crop (closer framing),Old,0.425,0,Unripe,0.31,True,21.87
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.72,1,Old,0.255,True,26.14
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.485,0,Dried,0.445,True,26.13
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.62,0,Old,0.31,True,32.54
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.51,1,Old,0.38,True,34.95
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.565,0,Dried,0.27,True,25.6
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.455,1,Old,0.345,True,28.44
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.535,0,Dried,0.295,True,24.75
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.515,0,Old,0.36,True,27.93
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Old,0.625,0,Dried,0.185,True,31.72
+IMG_20220607_085850.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Old,0.555,0,Dried,0.195,True,36.67
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.82,1,Old,0.105,True,17.41
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.775,1,Old,0.155,True,18.78
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Dried,0.36,1,Ripe,0.32,True,18.5
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.65,1,Old,0.16,True,30.51
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.355,0,Dried,0.275,True,18.88
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.665,1,Old,0.21,True,16.91
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.36,0,Dried,0.3,True,18.7
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Dried,0.435,1,Ripe,0.3,True,24.51
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Ripe,0.385,0,Old,0.345,True,26.19
+IMG_20220609_090150.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Ripe,0.355,0,Dried,0.295,True,21.44
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.95,1,Old,0.035,True,18.23
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.945,1,Old,0.05,True,21.82
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Dried,0.46,1,Ripe,0.23,True,16.59
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.78,1,Old,0.1,True,18.9
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Dried,0.405,1,Old,0.36,True,18.22
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.835,1,Old,0.06,True,19.42
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Dried,0.42,1,Old,0.355,True,19.02
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Dried,0.425,1,Ripe,0.265,True,17.44
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Ripe,0.515,0,Old,0.285,True,29.94
+IMG_20220609_090208.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Dried,0.535,1,Old,0.32,True,20.14
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.885,1,Old,0.105,True,25.91
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.655,1,Old,0.285,True,28.85
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.41,0,Ripe,0.25,True,24.19
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.79,1,Old,0.14,True,27.2
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.515,0,Dried,0.305,True,24.42
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.58,1,Old,0.21,True,26.51
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.485,0,Dried,0.365,True,29.31
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.34,0,Ripe,0.245,True,24.01
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Dried,0.525,1,Old,0.405,True,29.67
+IMG_20220609_090427.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Dried,0.45,1,Old,0.36,False,33.04
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.92,1,Old,0.035,True,19.44
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.875,1,Old,0.075,True,20.66
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Dried,0.27,1,Old,0.25,True,27.31
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.745,1,Old,0.135,True,26.44
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.375,0,Dried,0.35,True,25.97
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.58,1,Old,0.22,True,19.66
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.39,0,Dried,0.36,True,21.1
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Dried,0.315,1,Ripe,0.28,True,19.44
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Ripe,0.465,0,Old,0.36,True,43.63
+IMG_20220612_151552.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Old,0.36,0,Dried,0.285,True,30.67
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.825,1,Old,0.15,True,23.61
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.625,1,Old,0.32,True,34.47
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.495,0,Ripe,0.29,True,25.09
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.82,1,Old,0.1,True,27.3
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.585,0,Dried,0.245,True,23.84
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.605,1,Old,0.18,True,22.96
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.56,0,Dried,0.3,True,23.02
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.505,0,Ripe,0.22,True,27.36
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Old,0.5,0,Dried,0.38,True,29.8
+IMG_20220612_151742.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Dried,0.535,1,Old,0.355,True,29.32
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.945,1,Old,0.04,True,28.79
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.955,1,Damaged,0.025,True,20.86
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.33,0,Dried,0.325,True,18.99
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.82,1,Old,0.11,True,19.26
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.555,0,Dried,0.235,True,20.6
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.67,1,Old,0.145,True,20.0
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.58,0,Dried,0.24,True,19.58
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Dried,0.325,1,Ripe,0.285,True,33.57
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Old,0.42,0,Ripe,0.24,True,49.78
+IMG_20220612_151930.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Dried,0.825,1,Old,0.11,True,29.91
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.93,1,Old,0.06,True,18.34
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.495,0,Dried,0.38,True,20.21
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.505,0,Unripe,0.23,True,18.42
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.77,1,Old,0.17,True,18.28
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.58,0,Dried,0.305,True,18.95
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.735,1,Old,0.205,True,18.07
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.57,0,Dried,0.31,True,18.0
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.46,0,Unripe,0.25,True,18.35
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Unripe,0.57,0,Old,0.24,True,28.92
+IMG_20220615_092706.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Old,0.545,0,Dried,0.375,True,19.48
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,control,unmodified test image,Dried,0.995,1,Old,0.005,True,27.76
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,rotated_15deg,"rotated 15 degrees, reflected borders",Dried,0.95,1,Old,0.04,True,35.59
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,low_resolution,downscaled to 96px then restored to 224px,Old,0.575,0,Ripe,0.17,True,24.59
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,jpeg_q30,JPEG recompressed at quality 30,Dried,0.855,1,Old,0.12,True,25.92
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,dim_lighting,brightness x 0.55 (dim room),Old,0.5,0,Dried,0.39,True,34.39
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.68,1,Old,0.25,True,26.0
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,low_contrast,contrast compressed to 55%,Old,0.49,0,Dried,0.43,True,29.73
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.5,0,Dried,0.2,True,48.41
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,vignette,radial illumination falloff,Dried,0.64,1,Old,0.27,True,31.56
+IMG_20220615_093044.jpg,New Mexico Green Chile,Dried,tight_crop,central 70% crop (closer framing),Dried,0.86,1,Old,0.09,True,33.27
+IMG_20220606_095340.jpg,Bell Pepper,Old,control,unmodified test image,Old,0.755,1,Ripe,0.185,True,27.14
+IMG_20220606_095340.jpg,Bell Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.385,1,Ripe,0.315,True,26.8
+IMG_20220606_095340.jpg,Bell Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.395,0,Ripe,0.375,True,28.03
+IMG_20220606_095340.jpg,Bell Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.555,1,Ripe,0.355,True,28.95
+IMG_20220606_095340.jpg,Bell Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Ripe,0.515,0,Old,0.33,True,23.11
+IMG_20220606_095340.jpg,Bell Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.35,1,Ripe,0.345,True,26.74
+IMG_20220606_095340.jpg,Bell Pepper,Old,low_contrast,contrast compressed to 55%,Ripe,0.475,0,Old,0.335,True,24.29
+IMG_20220606_095340.jpg,Bell Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.385,0,Unripe,0.36,True,33.49
+IMG_20220606_095340.jpg,Bell Pepper,Old,vignette,radial illumination falloff,Ripe,0.46,0,Unripe,0.3,True,30.53
+IMG_20220606_095340.jpg,Bell Pepper,Old,tight_crop,central 70% crop (closer framing),Ripe,0.385,0,Old,0.285,True,31.78
+IMG_20220606_095426.jpg,Bell Pepper,Old,control,unmodified test image,Old,0.74,1,Ripe,0.15,True,25.39
+IMG_20220606_095426.jpg,Bell Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.405,0,Old,0.4,True,30.34
+IMG_20220606_095426.jpg,Bell Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.49,0,Unripe,0.22,True,38.75
+IMG_20220606_095426.jpg,Bell Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.52,1,Ripe,0.255,True,50.7
+IMG_20220606_095426.jpg,Bell Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.415,1,Ripe,0.355,True,26.06
+IMG_20220606_095426.jpg,Bell Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.355,0,Old,0.28,True,28.69
+IMG_20220606_095426.jpg,Bell Pepper,Old,low_contrast,contrast compressed to 55%,Unripe,0.31,0,Ripe,0.305,True,28.92
+IMG_20220606_095426.jpg,Bell Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.455,0,Old,0.245,True,24.93
+IMG_20220606_095426.jpg,Bell Pepper,Old,vignette,radial illumination falloff,Ripe,0.52,0,Old,0.255,True,29.39
+IMG_20220606_095426.jpg,Bell Pepper,Old,tight_crop,central 70% crop (closer framing),Old,0.465,1,Ripe,0.355,True,35.01
+IMG_20220607_091032.jpg,Bell Pepper,Old,control,unmodified test image,Old,0.83,1,Damaged,0.095,True,20.84
+IMG_20220607_091032.jpg,Bell Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.845,1,Ripe,0.09,True,21.85
+IMG_20220607_091032.jpg,Bell Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.49,0,Old,0.24,True,22.52
+IMG_20220607_091032.jpg,Bell Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.48,1,Damaged,0.255,True,20.62
+IMG_20220607_091032.jpg,Bell Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.49,1,Dried,0.155,True,22.87
+IMG_20220607_091032.jpg,Bell Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.335,1,Ripe,0.26,True,21.49
+IMG_20220607_091032.jpg,Bell Pepper,Old,low_contrast,contrast compressed to 55%,Old,0.425,1,Dried,0.195,True,21.42
+IMG_20220607_091032.jpg,Bell Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.47,0,Old,0.255,True,21.38
+IMG_20220607_091032.jpg,Bell Pepper,Old,vignette,radial illumination falloff,Ripe,0.48,0,Old,0.28,True,35.79
+IMG_20220607_091032.jpg,Bell Pepper,Old,tight_crop,central 70% crop (closer framing),Old,0.525,1,Damaged,0.215,True,27.93
+IMG_20220609_091501.jpg,Bell Pepper,Old,control,unmodified test image,Old,0.75,1,Dried,0.11,True,30.82
+IMG_20220609_091501.jpg,Bell Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.48,1,Ripe,0.22,True,34.95
+IMG_20220609_091501.jpg,Bell Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.37,0,Old,0.29,True,27.92
+IMG_20220609_091501.jpg,Bell Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.635,1,Ripe,0.135,True,28.15
+IMG_20220609_091501.jpg,Bell Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.52,1,Ripe,0.185,True,32.55
+IMG_20220609_091501.jpg,Bell Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.3,0,Old,0.245,True,29.94
+IMG_20220609_091501.jpg,Bell Pepper,Old,low_contrast,contrast compressed to 55%,Old,0.455,1,Ripe,0.185,True,30.44
+IMG_20220609_091501.jpg,Bell Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.36,0,Old,0.305,True,28.91
+IMG_20220609_091501.jpg,Bell Pepper,Old,vignette,radial illumination falloff,Old,0.5,1,Ripe,0.25,True,29.16
+IMG_20220609_091501.jpg,Bell Pepper,Old,tight_crop,central 70% crop (closer framing),Damaged,0.34,0,Old,0.315,True,33.17
+IMG_20220603_084506.jpg,Chile Pepper,Old,control,unmodified test image,Old,0.92,1,Ripe,0.04,True,23.42
+IMG_20220603_084506.jpg,Chile Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.82,1,Ripe,0.095,True,24.24
+IMG_20220603_084506.jpg,Chile Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.555,1,Unripe,0.325,True,35.18
+IMG_20220603_084506.jpg,Chile Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.86,1,Ripe,0.07,True,30.09
+IMG_20220603_084506.jpg,Chile Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.63,1,Unripe,0.125,True,25.78
+IMG_20220603_084506.jpg,Chile Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.37,1,Ripe,0.22,True,23.29
+IMG_20220603_084506.jpg,Chile Pepper,Old,low_contrast,contrast compressed to 55%,Old,0.73,1,Unripe,0.115,True,22.67
+IMG_20220603_084506.jpg,Chile Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.595,1,Unripe,0.3,True,22.87
+IMG_20220603_084506.jpg,Chile Pepper,Old,vignette,radial illumination falloff,Old,0.625,1,Ripe,0.185,True,29.03
+IMG_20220603_084506.jpg,Chile Pepper,Old,tight_crop,central 70% crop (closer framing),Old,0.5,1,Unripe,0.3,True,33.19
+IMG_20220604_094633.jpg,Chile Pepper,Old,control,unmodified test image,Old,0.985,1,Dried,0.015,True,23.47
+IMG_20220604_094633.jpg,Chile Pepper,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.895,1,Ripe,0.045,True,31.42
+IMG_20220604_094633.jpg,Chile Pepper,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.495,1,Unripe,0.335,True,29.01
+IMG_20220604_094633.jpg,Chile Pepper,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.855,1,Dried,0.09,True,37.62
+IMG_20220604_094633.jpg,Chile Pepper,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.725,1,Dried,0.115,True,23.52
+IMG_20220604_094633.jpg,Chile Pepper,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.485,1,Dried,0.245,True,23.49
+IMG_20220604_094633.jpg,Chile Pepper,Old,low_contrast,contrast compressed to 55%,Old,0.74,1,Dried,0.125,True,23.42
+IMG_20220604_094633.jpg,Chile Pepper,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.495,1,Unripe,0.33,True,22.84
+IMG_20220604_094633.jpg,Chile Pepper,Old,vignette,radial illumination falloff,Old,0.615,1,Ripe,0.205,True,29.49
+IMG_20220604_094633.jpg,Chile Pepper,Old,tight_crop,central 70% crop (closer framing),Old,0.555,1,Ripe,0.22,True,30.41
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,control,unmodified test image,Unripe,0.44,0,Old,0.325,True,17.55
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.515,0,Old,0.24,True,29.61
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.5,0,Old,0.195,True,31.61
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.36,1,Dried,0.25,True,27.88
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,dim_lighting,brightness x 0.55 (dim room),Unripe,0.415,0,Dried,0.26,True,23.17
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,harsh_lighting,brightness x 1.45 (overexposed),Unripe,0.295,0,Ripe,0.265,True,17.17
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,low_contrast,contrast compressed to 55%,Unripe,0.485,0,Dried,0.26,True,17.76
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.54,0,Old,0.19,True,18.63
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,vignette,radial illumination falloff,Unripe,0.56,0,Ripe,0.24,True,27.65
+IMG_20220606_094325.jpg,New Mexico Green Chile,Old,tight_crop,central 70% crop (closer framing),Unripe,0.465,0,Old,0.265,True,21.74
+IMG_20220524_081445.jpg,Tomato,Old,control,unmodified test image,Old,0.96,1,Ripe,0.04,True,25.64
+IMG_20220524_081445.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.605,1,Ripe,0.395,True,26.5
+IMG_20220524_081445.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.685,0,Old,0.26,True,27.26
+IMG_20220524_081445.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.57,1,Ripe,0.34,True,26.29
+IMG_20220524_081445.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.595,1,Ripe,0.195,True,26.56
+IMG_20220524_081445.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.695,1,Ripe,0.145,True,28.44
+IMG_20220524_081445.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.59,1,Ripe,0.15,True,27.45
+IMG_20220524_081445.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.675,0,Old,0.25,True,27.46
+IMG_20220524_081445.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.64,1,Ripe,0.285,True,33.37
+IMG_20220524_081445.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Ripe,0.525,0,Old,0.395,True,33.79
+IMG_20220526_085940.jpg,Tomato,Old,control,unmodified test image,Old,0.66,1,Ripe,0.26,True,33.84
+IMG_20220526_085940.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.475,1,Ripe,0.43,True,21.5
+IMG_20220526_085940.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.635,0,Old,0.235,True,18.68
+IMG_20220526_085940.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.65,1,Dried,0.145,True,18.69
+IMG_20220526_085940.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.375,1,Ripe,0.33,True,17.52
+IMG_20220526_085940.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.375,1,Dried,0.32,True,17.75
+IMG_20220526_085940.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.41,1,Ripe,0.185,True,21.35
+IMG_20220526_085940.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.605,0,Old,0.26,True,19.55
+IMG_20220526_085940.jpg,Tomato,Old,vignette,radial illumination falloff,Ripe,0.665,0,Old,0.16,True,36.2
+IMG_20220526_085940.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Ripe,0.835,0,Old,0.125,True,25.03
+IMG_20220527_090147.jpg,Tomato,Old,control,unmodified test image,Old,0.895,1,Ripe,0.075,True,23.14
+IMG_20220527_090147.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.81,1,Ripe,0.1,True,22.35
+IMG_20220527_090147.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.605,1,Unripe,0.27,True,24.93
+IMG_20220527_090147.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.75,1,Dried,0.105,True,20.59
+IMG_20220527_090147.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.45,1,Unripe,0.265,True,25.45
+IMG_20220527_090147.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.505,1,Ripe,0.19,True,18.87
+IMG_20220527_090147.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.48,1,Unripe,0.265,True,19.28
+IMG_20220527_090147.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.625,1,Unripe,0.245,True,21.73
+IMG_20220527_090147.jpg,Tomato,Old,vignette,radial illumination falloff,Unripe,0.415,0,Old,0.345,True,29.62
+IMG_20220527_090147.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.505,1,Ripe,0.265,True,23.62
+IMG_20220528_092117.jpg,Tomato,Old,control,unmodified test image,Old,0.925,1,Ripe,0.04,True,24.45
+IMG_20220528_092117.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.69,1,Ripe,0.275,True,25.07
+IMG_20220528_092117.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.96,0,Old,0.025,True,23.96
+IMG_20220528_092117.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.77,1,Ripe,0.135,True,27.0
+IMG_20220528_092117.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.635,1,Ripe,0.135,True,26.01
+IMG_20220528_092117.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.56,1,Dried,0.335,True,27.91
+IMG_20220528_092117.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.585,1,Dried,0.135,True,24.34
+IMG_20220528_092117.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.96,0,Old,0.025,True,24.68
+IMG_20220528_092117.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.685,1,Ripe,0.195,True,28.84
+IMG_20220528_092117.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.44,1,Ripe,0.42,True,34.78
+IMG_20220530_084055.jpg,Tomato,Old,control,unmodified test image,Old,0.98,1,Dried,0.01,True,22.96
+IMG_20220530_084055.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.95,1,Ripe,0.02,True,25.55
+IMG_20220530_084055.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.555,1,Ripe,0.36,True,23.19
+IMG_20220530_084055.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.865,1,Dried,0.095,True,30.0
+IMG_20220530_084055.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.64,1,Damaged,0.17,True,28.41
+IMG_20220530_084055.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.565,1,Dried,0.385,True,22.98
+IMG_20220530_084055.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.61,1,Damaged,0.19,True,22.84
+IMG_20220530_084055.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.53,1,Ripe,0.375,True,24.5
+IMG_20220530_084055.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.775,1,Ripe,0.145,True,29.71
+IMG_20220530_084055.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.88,1,Ripe,0.06,True,28.59
+IMG_20220601_094836.jpg,Tomato,Old,control,unmodified test image,Old,0.93,1,Ripe,0.035,True,22.75
+IMG_20220601_094836.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.7,1,Ripe,0.245,True,26.89
+IMG_20220601_094836.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.96,0,Old,0.04,True,23.07
+IMG_20220601_094836.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.73,1,Ripe,0.17,True,25.23
+IMG_20220601_094836.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.525,1,Ripe,0.23,True,23.62
+IMG_20220601_094836.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.345,1,Dried,0.3,True,23.45
+IMG_20220601_094836.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.54,1,Ripe,0.225,True,24.17
+IMG_20220601_094836.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.95,0,Old,0.045,True,23.62
+IMG_20220601_094836.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.53,1,Ripe,0.415,True,42.74
+IMG_20220601_094836.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Ripe,0.67,0,Old,0.255,True,33.97
+IMG_20220601_094922.jpg,Tomato,Old,control,unmodified test image,Old,0.76,1,Ripe,0.21,True,26.14
+IMG_20220601_094922.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.595,0,Old,0.365,True,35.12
+IMG_20220601_094922.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.97,0,Old,0.025,True,31.37
+IMG_20220601_094922.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.52,1,Ripe,0.395,True,25.49
+IMG_20220601_094922.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.42,1,Ripe,0.395,True,27.96
+IMG_20220601_094922.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.355,0,Old,0.295,True,28.3
+IMG_20220601_094922.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.44,1,Ripe,0.36,True,27.66
+IMG_20220601_094922.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.955,0,Old,0.04,True,26.44
+IMG_20220601_094922.jpg,Tomato,Old,vignette,radial illumination falloff,Ripe,0.56,0,Old,0.365,True,29.54
+IMG_20220601_094922.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Ripe,0.725,0,Old,0.185,True,34.28
+IMG_20220602_085630.jpg,Tomato,Old,control,unmodified test image,Old,0.88,1,Dried,0.105,True,18.36
+IMG_20220602_085630.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.76,1,Dried,0.205,True,18.1
+IMG_20220602_085630.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.57,1,Ripe,0.3,True,25.66
+IMG_20220602_085630.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.65,1,Dried,0.3,True,24.57
+IMG_20220602_085630.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.655,1,Dried,0.135,True,34.53
+IMG_20220602_085630.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.39,0,Old,0.35,True,20.28
+IMG_20220602_085630.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.69,1,Damaged,0.13,True,20.13
+IMG_20220602_085630.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.505,1,Ripe,0.295,True,19.3
+IMG_20220602_085630.jpg,Tomato,Old,vignette,radial illumination falloff,Ripe,0.535,0,Old,0.375,True,30.66
+IMG_20220602_085630.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.815,1,Dried,0.145,True,24.2
+IMG_20220602_085746.jpg,Tomato,Old,control,unmodified test image,Old,0.855,1,Dried,0.1,True,17.29
+IMG_20220602_085746.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.74,1,Ripe,0.12,True,22.85
+IMG_20220602_085746.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.425,0,Old,0.28,True,28.66
+IMG_20220602_085746.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.765,1,Dried,0.135,True,27.1
+IMG_20220602_085746.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.535,1,Ripe,0.165,True,26.36
+IMG_20220602_085746.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.46,0,Old,0.325,True,18.43
+IMG_20220602_085746.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.485,1,Ripe,0.16,True,21.78
+IMG_20220602_085746.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.395,0,Old,0.28,True,18.76
+IMG_20220602_085746.jpg,Tomato,Old,vignette,radial illumination falloff,Ripe,0.425,0,Unripe,0.38,True,32.05
+IMG_20220602_085746.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.69,1,Ripe,0.23,True,20.72
+IMG_20220602_090054.jpg,Tomato,Old,control,unmodified test image,Old,0.93,1,Damaged,0.04,True,22.07
+IMG_20220602_090054.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.855,1,Ripe,0.1,True,32.06
+IMG_20220602_090054.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.51,0,Old,0.47,True,21.79
+IMG_20220602_090054.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.86,1,Dried,0.095,True,25.75
+IMG_20220602_090054.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.62,1,Damaged,0.18,True,37.11
+IMG_20220602_090054.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.585,1,Dried,0.345,True,23.55
+IMG_20220602_090054.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.59,1,Damaged,0.165,True,22.61
+IMG_20220602_090054.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.505,0,Old,0.48,True,36.42
+IMG_20220602_090054.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.8,1,Ripe,0.115,True,40.63
+IMG_20220602_090054.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.49,1,Ripe,0.385,True,38.31
+IMG_20220603_093631.jpg,Tomato,Old,control,unmodified test image,Old,0.99,1,Damaged,0.005,True,20.2
+IMG_20220603_093631.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.89,1,Ripe,0.07,True,18.83
+IMG_20220603_093631.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.75,1,Unripe,0.13,True,19.0
+IMG_20220603_093631.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.88,1,Dried,0.06,True,17.86
+IMG_20220603_093631.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.595,1,Damaged,0.18,True,16.81
+IMG_20220603_093631.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.83,1,Dried,0.12,True,19.09
+IMG_20220603_093631.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.65,1,Damaged,0.175,True,16.86
+IMG_20220603_093631.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.715,1,Unripe,0.145,True,16.73
+IMG_20220603_093631.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.515,1,Unripe,0.265,True,28.53
+IMG_20220603_093631.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.825,1,Ripe,0.075,True,19.41
+IMG_20220603_093931.jpg,Tomato,Old,control,unmodified test image,Old,0.79,1,Dried,0.185,True,23.81
+IMG_20220603_093931.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.86,1,Dried,0.08,True,31.4
+IMG_20220603_093931.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.495,1,Ripe,0.325,True,23.69
+IMG_20220603_093931.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.665,1,Dried,0.3,True,26.36
+IMG_20220603_093931.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Old,0.605,1,Damaged,0.16,True,23.59
+IMG_20220603_093931.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Dried,0.695,0,Old,0.23,True,28.05
+IMG_20220603_093931.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Old,0.565,1,Damaged,0.2,True,31.18
+IMG_20220603_093931.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.475,1,Ripe,0.325,True,27.0
+IMG_20220603_093931.jpg,Tomato,Old,vignette,radial illumination falloff,Old,0.8,1,Dried,0.095,True,29.74
+IMG_20220603_093931.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Old,0.615,1,Ripe,0.18,False,31.88
+IMG_20220606_093946.jpg,Tomato,Old,control,unmodified test image,Old,0.565,1,Ripe,0.235,True,20.03
+IMG_20220606_093946.jpg,Tomato,Old,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.48,1,Ripe,0.315,True,21.85
+IMG_20220606_093946.jpg,Tomato,Old,low_resolution,downscaled to 96px then restored to 224px,Old,0.46,1,Ripe,0.35,True,21.0
+IMG_20220606_093946.jpg,Tomato,Old,jpeg_q30,JPEG recompressed at quality 30,Old,0.505,1,Ripe,0.305,True,22.32
+IMG_20220606_093946.jpg,Tomato,Old,dim_lighting,brightness x 0.55 (dim room),Unripe,0.37,0,Old,0.345,True,20.35
+IMG_20220606_093946.jpg,Tomato,Old,harsh_lighting,brightness x 1.45 (overexposed),Old,0.445,1,Ripe,0.325,True,20.0
+IMG_20220606_093946.jpg,Tomato,Old,low_contrast,contrast compressed to 55%,Unripe,0.435,0,Old,0.325,True,21.48
+IMG_20220606_093946.jpg,Tomato,Old,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Old,0.445,1,Ripe,0.36,True,22.69
+IMG_20220606_093946.jpg,Tomato,Old,vignette,radial illumination falloff,Ripe,0.42,0,Unripe,0.285,True,30.31
+IMG_20220606_093946.jpg,Tomato,Old,tight_crop,central 70% crop (closer framing),Ripe,0.52,0,Old,0.33,True,30.6
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,control,unmodified test image,Ripe,0.845,1,Old,0.08,True,21.59
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.85,1,Dried,0.05,True,19.64
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.585,1,Unripe,0.205,True,17.98
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.81,1,Old,0.1,True,23.57
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Old,0.465,0,Ripe,0.395,True,20.01
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.575,1,Old,0.235,True,18.99
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,low_contrast,contrast compressed to 55%,Old,0.47,0,Ripe,0.39,True,25.39
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.595,1,Unripe,0.195,True,22.31
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,vignette,radial illumination falloff,Unripe,0.405,0,Ripe,0.375,True,33.97
+IMG_20220603_084721.jpg,Bell Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.57,1,Old,0.29,True,23.61
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,control,unmodified test image,Ripe,0.835,1,Old,0.155,True,29.08
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.785,1,Old,0.155,True,30.93
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.525,0,Ripe,0.335,True,25.58
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.715,1,Old,0.2,True,32.27
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Old,0.475,0,Ripe,0.265,True,24.62
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.405,1,Old,0.255,True,24.96
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,low_contrast,contrast compressed to 55%,Old,0.415,0,Ripe,0.285,True,24.48
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.515,0,Ripe,0.345,True,24.75
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,vignette,radial illumination falloff,Ripe,0.495,1,Old,0.31,True,30.55
+IMG_20220603_084936.jpg,Bell Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.48,1,Old,0.38,True,33.16
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,control,unmodified test image,Ripe,0.78,1,Old,0.13,True,27.55
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.56,1,Unripe,0.3,True,27.03
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.695,0,Ripe,0.18,True,43.79
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.605,1,Old,0.225,True,28.17
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.355,1,Unripe,0.32,True,33.48
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.345,1,Old,0.25,True,32.3
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,low_contrast,contrast compressed to 55%,Unripe,0.34,0,Ripe,0.33,True,27.64
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.64,0,Ripe,0.22,True,26.12
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,vignette,radial illumination falloff,Ripe,0.505,1,Unripe,0.265,True,30.92
+IMG_20220603_085100.jpg,Bell Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.355,1,Old,0.33,True,32.54
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,control,unmodified test image,Ripe,0.43,1,Unripe,0.285,True,20.87
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.585,1,Old,0.21,True,29.42
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.535,0,Ripe,0.305,True,21.06
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.405,1,Old,0.285,True,27.02
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.43,0,Old,0.23,True,24.41
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Unripe,0.345,0,Ripe,0.28,True,21.1
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,low_contrast,contrast compressed to 55%,Unripe,0.46,0,Old,0.22,True,20.67
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.535,0,Ripe,0.305,True,22.14
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,vignette,radial illumination falloff,Unripe,0.465,0,Ripe,0.335,True,26.65
+IMG_20220604_093943.jpg,Bell Pepper,Ripe,tight_crop,central 70% crop (closer framing),Unripe,0.505,0,Ripe,0.295,True,42.93
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,control,unmodified test image,Ripe,0.705,1,Old,0.28,True,23.09
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.7,1,Old,0.25,True,29.41
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.435,0,Ripe,0.34,True,29.14
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.595,1,Old,0.305,True,23.81
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Old,0.47,0,Ripe,0.32,True,24.19
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.385,1,Old,0.32,True,28.0
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,low_contrast,contrast compressed to 55%,Old,0.44,0,Ripe,0.28,True,43.23
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.405,0,Ripe,0.365,True,37.51
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,vignette,radial illumination falloff,Ripe,0.515,1,Old,0.24,True,36.84
+IMG_20220604_094202.jpg,Bell Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.485,1,Old,0.26,True,41.91
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,control,unmodified test image,Ripe,0.695,1,Unripe,0.17,True,32.55
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.47,0,Ripe,0.425,True,19.09
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.675,1,Unripe,0.2,True,24.25
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.355,1,Dried,0.285,True,18.77
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.37,1,Unripe,0.24,True,16.78
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.46,1,Dried,0.21,True,17.77
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.35,1,Dried,0.27,True,21.7
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.685,1,Unripe,0.2,True,18.96
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,vignette,radial illumination falloff,Unripe,0.435,0,Ripe,0.335,True,50.98
+IMG_20220602_090310.jpg,Chile Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.72,1,Unripe,0.15,True,32.64
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,control,unmodified test image,Ripe,0.63,1,Unripe,0.27,True,26.32
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.52,0,Ripe,0.405,True,23.85
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.715,1,Unripe,0.2,True,25.5
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,jpeg_q30,JPEG recompressed at quality 30,Dried,0.335,0,Ripe,0.325,True,18.07
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.29,1,Unripe,0.275,True,26.59
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.43,1,Dried,0.23,True,18.91
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.315,1,Unripe,0.29,True,18.06
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.675,1,Unripe,0.23,True,32.03
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,vignette,radial illumination falloff,Unripe,0.44,0,Ripe,0.335,True,41.24
+IMG_20220602_090311.jpg,Chile Pepper,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.505,1,Unripe,0.345,True,28.43
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,control,unmodified test image,Ripe,0.53,1,Old,0.22,True,28.26
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Old,0.375,0,Ripe,0.35,True,25.56
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.495,0,Old,0.325,True,26.79
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,jpeg_q30,JPEG recompressed at quality 30,Dried,0.37,0,Old,0.28,True,26.71
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,dim_lighting,brightness x 0.55 (dim room),Old,0.425,0,Unripe,0.23,True,30.54
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.33,1,Dried,0.305,True,24.28
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,low_contrast,contrast compressed to 55%,Old,0.42,0,Unripe,0.24,True,22.75
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.465,0,Old,0.32,True,22.13
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,vignette,radial illumination falloff,Unripe,0.61,0,Ripe,0.185,True,29.57
+IMG_20220602_084439.jpg,New Mexico Green Chile,Ripe,tight_crop,central 70% crop (closer framing),Unripe,0.495,0,Old,0.315,True,39.15
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,control,unmodified test image,Unripe,0.69,0,Old,0.15,True,32.35
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.685,0,Ripe,0.17,True,23.51
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.815,0,Ripe,0.085,True,29.73
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,jpeg_q30,JPEG recompressed at quality 30,Unripe,0.49,0,Ripe,0.29,True,29.68
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.65,0,Ripe,0.16,True,32.72
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Unripe,0.4,0,Ripe,0.265,True,42.51
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,low_contrast,contrast compressed to 55%,Unripe,0.64,0,Ripe,0.155,True,33.53
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.8,0,Ripe,0.1,True,26.18
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,vignette,radial illumination falloff,Unripe,0.74,0,Ripe,0.16,True,41.86
+IMG_20220602_084541.jpg,New Mexico Green Chile,Ripe,tight_crop,central 70% crop (closer framing),Unripe,0.605,0,Ripe,0.26,True,30.94
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,control,unmodified test image,Ripe,0.43,1,Unripe,0.405,True,25.95
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.68,0,Ripe,0.16,True,38.62
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.86,0,Ripe,0.09,True,46.04
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.41,1,Unripe,0.29,True,45.31
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.4,0,Ripe,0.335,True,45.51
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.39,1,Old,0.255,True,31.08
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,low_contrast,contrast compressed to 55%,Unripe,0.54,0,Ripe,0.25,True,26.71
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.835,0,Ripe,0.105,True,34.01
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,vignette,radial illumination falloff,Unripe,0.63,0,Ripe,0.265,True,32.92
+IMG_20220602_084653.jpg,New Mexico Green Chile,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.44,1,Unripe,0.26,True,41.76
+IMG_20220512_090138.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.99,1,Unripe,0.005,True,36.01
+IMG_20220512_090138.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.97,1,Unripe,0.02,True,37.88
+IMG_20220512_090138.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.945,1,Unripe,0.04,True,27.48
+IMG_20220512_090138.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.74,1,Old,0.135,True,28.27
+IMG_20220512_090138.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.47,1,Old,0.225,True,28.47
+IMG_20220512_090138.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.88,1,Unripe,0.055,True,30.57
+IMG_20220512_090138.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.495,1,Old,0.275,True,27.89
+IMG_20220512_090138.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.94,1,Unripe,0.04,True,26.42
+IMG_20220512_090138.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.725,1,Unripe,0.135,True,31.79
+IMG_20220512_090138.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.89,1,Unripe,0.075,True,40.09
+IMG_20220514_090638.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.97,1,Old,0.025,True,25.26
+IMG_20220514_090638.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.98,1,Old,0.015,True,26.37
+IMG_20220514_090638.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.93,1,Old,0.035,True,25.97
+IMG_20220514_090638.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.78,1,Old,0.155,True,25.92
+IMG_20220514_090638.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.71,1,Old,0.125,True,55.44
+IMG_20220514_090638.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.69,1,Old,0.215,True,46.73
+IMG_20220514_090638.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.67,1,Old,0.145,True,44.24
+IMG_20220514_090638.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.915,1,Unripe,0.05,True,35.15
+IMG_20220514_090638.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.885,1,Unripe,0.06,True,44.65
+IMG_20220514_090638.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.915,1,Unripe,0.05,True,45.73
+IMG_20220514_090718.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.995,1,Unripe,0.005,True,29.92
+IMG_20220514_090718.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.99,1,Unripe,0.005,True,29.47
+IMG_20220514_090718.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.945,1,Unripe,0.05,True,51.56
+IMG_20220514_090718.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.765,1,Old,0.18,True,49.15
+IMG_20220514_090718.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.65,1,Old,0.165,True,32.17
+IMG_20220514_090718.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.8,1,Old,0.19,True,27.74
+IMG_20220514_090718.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.65,1,Unripe,0.15,True,33.86
+IMG_20220514_090718.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.945,1,Unripe,0.045,True,33.79
+IMG_20220514_090718.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.905,1,Unripe,0.05,True,49.26
+IMG_20220514_090718.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.875,1,Old,0.075,True,60.53
+IMG_20220514_090744.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.955,1,Old,0.035,True,34.3
+IMG_20220514_090744.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.96,1,Old,0.03,True,28.41
+IMG_20220514_090744.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.955,1,Old,0.025,True,21.96
+IMG_20220514_090744.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.645,1,Old,0.31,True,26.98
+IMG_20220514_090744.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.655,1,Old,0.19,True,27.5
+IMG_20220514_090744.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.58,1,Old,0.25,True,27.27
+IMG_20220514_090744.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.6,1,Old,0.22,True,31.49
+IMG_20220514_090744.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.945,1,Old,0.025,True,28.01
+IMG_20220514_090744.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.87,1,Old,0.075,True,44.8
+IMG_20220514_090744.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.765,1,Old,0.18,False,36.74
+IMG_20220515_175805.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.92,1,Unripe,0.045,True,18.64
+IMG_20220515_175805.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.81,1,Old,0.105,True,23.54
+IMG_20220515_175805.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.9,1,Unripe,0.06,True,26.81
+IMG_20220515_175805.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.775,1,Old,0.12,True,19.98
+IMG_20220515_175805.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.37,1,Old,0.265,True,28.73
+IMG_20220515_175805.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.45,1,Old,0.27,True,40.31
+IMG_20220515_175805.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.55,1,Old,0.185,True,28.93
+IMG_20220515_175805.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.81,1,Old,0.095,True,23.14
+IMG_20220515_175805.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.6,1,Unripe,0.195,True,34.97
+IMG_20220515_175805.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.97,1,Unripe,0.02,True,39.45
+IMG_20220516_184524.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.935,1,Unripe,0.025,True,35.9
+IMG_20220516_184524.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.925,1,Old,0.055,True,35.23
+IMG_20220516_184524.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.935,1,Unripe,0.035,True,36.86
+IMG_20220516_184524.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.76,1,Old,0.16,True,41.19
+IMG_20220516_184524.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.51,1,Old,0.28,True,43.91
+IMG_20220516_184524.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.6,1,Old,0.205,True,32.25
+IMG_20220516_184524.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.525,1,Old,0.27,True,38.12
+IMG_20220516_184524.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.905,1,Old,0.045,True,37.46
+IMG_20220516_184524.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.8,1,Old,0.1,True,40.16
+IMG_20220516_184524.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.895,1,Old,0.075,True,49.79
+IMG_20220518_085452.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.925,1,Old,0.045,True,26.74
+IMG_20220518_085452.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.88,1,Old,0.05,True,27.6
+IMG_20220518_085452.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.91,1,Old,0.045,True,33.63
+IMG_20220518_085452.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.655,1,Old,0.19,True,34.75
+IMG_20220518_085452.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.465,1,Unripe,0.175,True,23.22
+IMG_20220518_085452.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.55,1,Old,0.245,True,28.57
+IMG_20220518_085452.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.43,1,Old,0.215,True,34.36
+IMG_20220518_085452.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.9,1,Old,0.05,True,35.23
+IMG_20220518_085452.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.58,1,Old,0.205,True,31.27
+IMG_20220518_085452.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,0.995,1,Unripe,0.005,True,19.81
+IMG_20220520_093010.jpg,Tomato,Ripe,control,unmodified test image,Ripe,0.965,1,Old,0.02,True,20.77
+IMG_20220520_093010.jpg,Tomato,Ripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.985,1,Unripe,0.005,True,18.06
+IMG_20220520_093010.jpg,Tomato,Ripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.96,1,Unripe,0.02,True,25.04
+IMG_20220520_093010.jpg,Tomato,Ripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.685,1,Old,0.205,True,33.91
+IMG_20220520_093010.jpg,Tomato,Ripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.53,1,Unripe,0.16,True,34.66
+IMG_20220520_093010.jpg,Tomato,Ripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.625,1,Old,0.16,True,27.89
+IMG_20220520_093010.jpg,Tomato,Ripe,low_contrast,contrast compressed to 55%,Ripe,0.575,1,Dried,0.15,True,18.76
+IMG_20220520_093010.jpg,Tomato,Ripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.955,1,Unripe,0.03,True,16.58
+IMG_20220520_093010.jpg,Tomato,Ripe,vignette,radial illumination falloff,Ripe,0.68,1,Old,0.17,True,30.15
+IMG_20220520_093010.jpg,Tomato,Ripe,tight_crop,central 70% crop (closer framing),Ripe,1.0,1,Unripe,0.0,True,37.03
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,control,unmodified test image,Unripe,0.585,1,Ripe,0.3,True,34.33
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.65,1,Ripe,0.265,True,29.99
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.805,1,Ripe,0.1,True,22.75
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,jpeg_q30,JPEG recompressed at quality 30,Unripe,0.56,1,Ripe,0.32,True,27.0
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.605,1,Ripe,0.18,True,23.58
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.41,0,Unripe,0.26,True,36.57
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,low_contrast,contrast compressed to 55%,Unripe,0.6,1,Old,0.175,True,28.72
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.74,1,Ripe,0.15,True,42.17
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,vignette,radial illumination falloff,Unripe,0.55,1,Ripe,0.305,True,51.67
+IMG_20220531_093434.jpg,Chile Pepper,Unripe,tight_crop,central 70% crop (closer framing),Unripe,0.505,1,Ripe,0.355,True,49.78
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,control,unmodified test image,Unripe,0.765,1,Ripe,0.18,True,34.59
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.725,1,Ripe,0.185,True,58.51
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.835,1,Ripe,0.11,True,44.17
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,jpeg_q30,JPEG recompressed at quality 30,Unripe,0.68,1,Ripe,0.225,True,30.22
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.6,1,Ripe,0.23,True,46.85
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.445,0,Unripe,0.21,True,33.8
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,low_contrast,contrast compressed to 55%,Unripe,0.66,1,Ripe,0.19,True,27.41
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.795,1,Ripe,0.145,True,43.7
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,vignette,radial illumination falloff,Unripe,0.72,1,Ripe,0.215,True,46.81
+IMG_20220530_084936.jpg,New Mexico Green Chile,Unripe,tight_crop,central 70% crop (closer framing),Unripe,0.695,1,Ripe,0.205,True,29.72
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,control,unmodified test image,Unripe,0.705,1,Ripe,0.2,True,41.11
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.62,1,Ripe,0.24,True,48.96
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.53,1,Ripe,0.325,True,44.24
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.355,0,Old,0.265,True,32.43
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.52,1,Ripe,0.27,True,27.42
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.48,0,Old,0.17,True,29.8
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,low_contrast,contrast compressed to 55%,Unripe,0.545,1,Ripe,0.245,True,30.68
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.535,1,Ripe,0.3,True,27.04
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,vignette,radial illumination falloff,Unripe,0.455,1,Ripe,0.365,True,38.62
+IMG_20220531_092919.jpg,New Mexico Green Chile,Unripe,tight_crop,central 70% crop (closer framing),Ripe,0.505,0,Unripe,0.235,True,42.44
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,control,unmodified test image,Ripe,0.71,0,Unripe,0.11,True,29.05
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.61,0,Unripe,0.155,True,28.83
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.67,0,Unripe,0.13,True,20.17
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,jpeg_q30,JPEG recompressed at quality 30,Ripe,0.475,0,Old,0.24,True,30.65
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,dim_lighting,brightness x 0.55 (dim room),Ripe,0.435,0,Old,0.23,True,23.07
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.435,0,Dried,0.18,True,30.64
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,low_contrast,contrast compressed to 55%,Ripe,0.39,0,Old,0.215,True,25.0
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.685,0,Unripe,0.14,True,31.05
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,vignette,radial illumination falloff,Ripe,0.45,0,Old,0.24,True,47.87
+IMG_20220601_093445.jpg,New Mexico Green Chile,Unripe,tight_crop,central 70% crop (closer framing),Ripe,0.56,0,Unripe,0.15,True,40.65
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,control,unmodified test image,Old,0.35,0,Ripe,0.25,True,22.44
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Ripe,0.34,0,Old,0.325,True,21.07
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,low_resolution,downscaled to 96px then restored to 224px,Ripe,0.79,0,Unripe,0.085,True,23.46
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,jpeg_q30,JPEG recompressed at quality 30,Old,0.365,0,Ripe,0.285,True,27.9
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,dim_lighting,brightness x 0.55 (dim room),Old,0.275,0,Unripe,0.265,True,19.61
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Ripe,0.3,0,Old,0.21,True,21.0
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,low_contrast,contrast compressed to 55%,Unripe,0.265,1,Old,0.235,True,19.66
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Ripe,0.785,0,Unripe,0.085,True,20.05
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,vignette,radial illumination falloff,Ripe,0.47,0,Old,0.245,True,35.71
+IMG_20220601_093503.jpg,New Mexico Green Chile,Unripe,tight_crop,central 70% crop (closer framing),Damaged,0.365,0,Old,0.265,True,29.52
+IMG_20220506_093250.jpg,Tomato,Unripe,control,unmodified test image,Unripe,0.895,1,Old,0.07,True,23.42
+IMG_20220506_093250.jpg,Tomato,Unripe,rotated_15deg,"rotated 15 degrees, reflected borders",Unripe,0.905,1,Old,0.065,True,26.63
+IMG_20220506_093250.jpg,Tomato,Unripe,low_resolution,downscaled to 96px then restored to 224px,Unripe,0.905,1,Old,0.055,True,25.87
+IMG_20220506_093250.jpg,Tomato,Unripe,jpeg_q30,JPEG recompressed at quality 30,Unripe,0.75,1,Old,0.135,True,28.4
+IMG_20220506_093250.jpg,Tomato,Unripe,dim_lighting,brightness x 0.55 (dim room),Unripe,0.64,1,Old,0.17,True,24.99
+IMG_20220506_093250.jpg,Tomato,Unripe,harsh_lighting,brightness x 1.45 (overexposed),Unripe,0.595,1,Old,0.21,True,20.35
+IMG_20220506_093250.jpg,Tomato,Unripe,low_contrast,contrast compressed to 55%,Unripe,0.685,1,Old,0.175,True,28.13
+IMG_20220506_093250.jpg,Tomato,Unripe,gaussian_blur,"5x5 gaussian, sigma 1.4 (out of focus)",Unripe,0.885,1,Old,0.08,True,34.27
+IMG_20220506_093250.jpg,Tomato,Unripe,vignette,radial illumination falloff,Unripe,0.87,1,Old,0.065,True,40.79
+IMG_20220506_093250.jpg,Tomato,Unripe,tight_crop,central 70% crop (closer framing),Unripe,0.87,1,Ripe,0.075,True,46.64

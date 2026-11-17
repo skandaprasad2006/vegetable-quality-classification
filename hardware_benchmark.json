@@ -1,0 +1,339 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "cpu_logical_cores": 16,
+    "cpu_physical_cores": 10,
+    "cpu_freq_mhz": 2400.0,
+    "ram_total_gb": 15.71,
+    "ram_available_gb": 6.24,
+    "disk_total_gb": 474.7,
+    "disk_free_gb": 40.1,
+    "python": "3.12.16",
+    "cwd": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj"
+  },
+  "tensorflow": {
+    "tensorflow_version": "2.21.0",
+    "eager": true,
+    "physical_devices": [
+      "CPU:/physical_device:CPU:0"
+    ],
+    "cpu_count": 1,
+    "gpu_devices": 0,
+    "gpu_visible_to_tf": false,
+    "intra_op_threads": 0,
+    "inter_op_threads": 0,
+    "mixed_precision": "float32",
+    "note": "No GPU is visible to TensorFlow on native Windows; the installed tensorflow-cpu build has no CUDA support and TF >= 2.11 does not ship native Windows GPU binaries."
+  },
+  "training_split": {
+    "split": "train",
+    "n_images": 4286,
+    "class_counts": {
+      "Old": 1426,
+      "Ripe": 1246,
+      "Dried": 962,
+      "Unripe": 430,
+      "Damaged": 222
+    },
+    "vegetable_counts": {
+      "Tomato": 1653,
+      "New Mexico Green Chile": 927,
+      "Chile Pepper": 893,
+      "Bell Pepper": 813
+    }
+  },
+  "input_throughput": [
+    {
+      "preset": "tf_native",
+      "batch_size": 32,
+      "images": 256,
+      "seconds": 0.071,
+      "images_per_second": 3614.7
+    },
+    {
+      "preset": "enhanced",
+      "batch_size": 32,
+      "images": 128,
+      "seconds": 0.192,
+      "images_per_second": 668.0
+    }
+  ],
+  "models": [
+    {
+      "name": "custom_cnn_single",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 423397,
+      "trainable_params": 422437,
+      "frozen_params": 960,
+      "size_mb_fp32": 1.62,
+      "backbone": "custom_cnn",
+      "head": "single",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": true,
+      "unfreeze_last": 0,
+      "normalization": "unit",
+      "step_time_s_median": 1.285,
+      "step_time_s_min": 1.19,
+      "step_time_s_all": [
+        1.19,
+        1.276,
+        1.341,
+        1.293
+      ],
+      "images_per_second_train": 24.9,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 172.2,
+      "est_epoch_time_min": 2.87,
+      "inference_batch_s_median": 0.2712,
+      "inference_ms_per_image": 8.47,
+      "rss_delta_model_mb": 0.8,
+      "rss_delta_train_mb": 1514.7,
+      "rss_total_mb": 1980.0
+    },
+    {
+      "name": "mobilenetv2_single_frozen",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 2422597,
+      "trainable_params": 164613,
+      "frozen_params": 2257984,
+      "size_mb_fp32": 9.24,
+      "backbone": "mobilenetv2",
+      "head": "single",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": true,
+      "unfreeze_last": 0,
+      "normalization": "tf",
+      "step_time_s_median": 0.361,
+      "step_time_s_min": 0.356,
+      "step_time_s_all": [
+        0.391,
+        0.363,
+        0.356,
+        0.36
+      ],
+      "images_per_second_train": 88.6,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 48.4,
+      "est_epoch_time_min": 0.81,
+      "inference_batch_s_median": 0.6205,
+      "inference_ms_per_image": 19.39,
+      "rss_delta_model_mb": 19.2,
+      "rss_delta_train_mb": 94.5,
+      "rss_total_mb": 2140.5
+    },
+    {
+      "name": "mobilenetv2_single_finetune",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 2422597,
+      "trainable_params": 1691013,
+      "frozen_params": 731584,
+      "size_mb_fp32": 9.24,
+      "backbone": "mobilenetv2",
+      "head": "single",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": false,
+      "unfreeze_last": 30,
+      "normalization": "tf",
+      "step_time_s_median": 0.41,
+      "step_time_s_min": 0.406,
+      "step_time_s_all": [
+        0.41,
+        0.41,
+        0.42,
+        0.406
+      ],
+      "images_per_second_train": 78.0,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 54.9,
+      "est_epoch_time_min": 0.92,
+      "inference_batch_s_median": 0.5907,
+      "inference_ms_per_image": 18.46,
+      "rss_delta_model_mb": 13.8,
+      "rss_delta_train_mb": 146.9,
+      "rss_total_mb": 3554.1
+    },
+    {
+      "name": "mobilenetv2_single_full",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 2422597,
+      "trainable_params": 2388485,
+      "frozen_params": 34112,
+      "size_mb_fp32": 9.24,
+      "backbone": "mobilenetv2",
+      "head": "single",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": false,
+      "unfreeze_last": 0,
+      "normalization": "tf",
+      "step_time_s_median": 1.843,
+      "step_time_s_min": 1.516,
+      "step_time_s_all": [
+        2.113,
+        2.134,
+        1.573,
+        1.516
+      ],
+      "images_per_second_train": 17.4,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 247.0,
+      "est_epoch_time_min": 4.12,
+      "inference_batch_s_median": 0.5103,
+      "inference_ms_per_image": 15.95,
+      "rss_delta_model_mb": 3.2,
+      "rss_delta_train_mb": 333.6,
+      "rss_total_mb": 3855.9
+    },
+    {
+      "name": "resnet50_single_frozen",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 23850629,
+      "trainable_params": 262917,
+      "frozen_params": 23587712,
+      "size_mb_fp32": 90.98,
+      "backbone": "resnet50",
+      "head": "single",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": true,
+      "unfreeze_last": 0,
+      "normalization": "caffe",
+      "step_time_s_median": 0.723,
+      "step_time_s_min": 0.72,
+      "step_time_s_all": [
+        0.727,
+        0.725,
+        0.72,
+        0.72
+      ],
+      "images_per_second_train": 44.3,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 96.8,
+      "est_epoch_time_min": 1.61,
+      "inference_batch_s_median": 1.1969,
+      "inference_ms_per_image": 37.4,
+      "rss_delta_model_mb": 88.6,
+      "rss_delta_train_mb": 64.7,
+      "rss_total_mb": 4028.9
+    },
+    {
+      "name": "resnet50_single_frozen",
+      "input_shape": [
+        160,
+        160,
+        3
+      ],
+      "output_names": [
+        "quality"
+      ],
+      "total_params": 23850629,
+      "trainable_params": 262917,
+      "frozen_params": 23587712,
+      "size_mb_fp32": 90.98,
+      "backbone": "resnet50",
+      "head": "single",
+      "input_size": 160,
+      "batch_size": 32,
+      "frozen": true,
+      "unfreeze_last": 0,
+      "normalization": "caffe",
+      "step_time_s_median": 0.408,
+      "step_time_s_min": 0.402,
+      "step_time_s_all": [
+        0.402,
+        0.467,
+        0.414,
+        0.403
+      ],
+      "images_per_second_train": 78.3,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 54.7,
+      "est_epoch_time_min": 0.91,
+      "inference_batch_s_median": 0.7985,
+      "inference_ms_per_image": 24.95,
+      "rss_delta_model_mb": 85.8,
+      "rss_delta_train_mb": 77.0,
+      "rss_total_mb": 6087.2
+    },
+    {
+      "name": "mobilenetv2_multitask_frozen",
+      "input_shape": [
+        224,
+        224,
+        3
+      ],
+      "output_names": [
+        "quality",
+        "vegetable"
+      ],
+      "total_params": 2587081,
+      "trainable_params": 329097,
+      "frozen_params": 2257984,
+      "size_mb_fp32": 9.87,
+      "backbone": "mobilenetv2",
+      "head": "multitask",
+      "input_size": 224,
+      "batch_size": 32,
+      "frozen": true,
+      "unfreeze_last": 0,
+      "normalization": "tf",
+      "step_time_s_median": 0.257,
+      "step_time_s_min": 0.248,
+      "step_time_s_all": [
+        0.249,
+        0.264,
+        0.274,
+        0.248
+      ],
+      "images_per_second_train": 124.6,
+      "steps_per_epoch": 134,
+      "est_epoch_time_s": 34.4,
+      "est_epoch_time_min": 0.57,
+      "inference_batch_s_median": 0.4999,
+      "inference_ms_per_image": 15.62,
+      "rss_delta_model_mb": 6.6,
+      "rss_delta_train_mb": 70.1,
+      "rss_total_mb": 6220.4
+    }
+  ],
+  "benchmark_duration_s": 84.8
+}

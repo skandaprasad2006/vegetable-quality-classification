@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-11-15T08:51:19",
+  "elapsed_s": 2.11,
+  "all_checks_pass": true,
+  "checks": {
+    "A_model_identity": {
+      "recorded_path": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\final\\rf_handcrafted.joblib",
+      "deployed_path": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\final\\rf_handcrafted.joblib",
+      "same_path": true,
+      "sha256": "53db2b148c0c1e3b9722e610c2c47c9dcc758859049b38ff434c04d10cdd83d3",
+      "bytes": 15728010,
+      "recorded_val_macro_f1": 0.9539,
+      "model": {
+        "run_id": "A5",
+        "type": "StandardScaler + RandomForestClassifier",
+        "n_estimators": 200,
+        "n_features": 83,
+        "n_classes": 5,
+        "classes": [
+          "Damaged",
+          "Dried",
+          "Old",
+          "Ripe",
+          "Unripe"
+        ],
+        "trained_on": 83,
+        "scaler_mean_present": true,
+        "n_trees_fitted": 200
+      },
+      "n_estimators_matches_config": true,
+      "features_match_config": true,
+      "classes_match_config": true,
+      "pass": true
+    },
+    "B_pipeline_equivalence": {
+      "images_compared": 20,
+      "features_per_image": 83,
+      "max_abs_difference": 0.0,
+      "n_mismatches": 0,
+      "examples": [],
+      "pass": true
+    },
+    "C_class_mapping": {
+      "config_order": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ],
+      "metadata_order": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ],
+      "artefact_order": [
+        "Damaged",
+        "Dried",
+        "Old",
+        "Ripe",
+        "Unripe"
+      ],
+      "rf_classes_": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "vegetable_order": [
+        "Bell Pepper",
+        "Chile Pepper",
+        "New Mexico Green Chile",
+        "Tomato"
+      ],
+      "metadata_vegetables": [
+        "Bell Pepper",
+        "Chile Pepper",
+        "New Mexico Green Chile",
+        "Tomato"
+      ],
+      "pass": true
+    },
+    "D_test_untouched": {
+      "phase4_authorised_evaluation_present": true,
+      "registry_test_columns_populated": {
+        "test_accuracy": true,
+        "test_macro_f1": true,
+        "test_weighted_f1": true
+      },
+      "existing_test_artefacts_in_metrics_dir": [],
+      "features_test_cache_present": false,
+      "code_paths_loading_test_split": [],
+      "pass": true
+    },
+    "E_frozen_artefacts": {
+      "checked": 12,
+      "failures": [],
+      "pass": true
+    },
+    "E2_split_integrity": {
+      "counts": {
+        "train": 4286,
+        "test": 935,
+        "validation": 929
+      },
+      "total": 6150,
+      "groups_spanning_splits": 0,
+      "sha256_spanning_splits": 0,
+      "test_groups_shared_with_train_or_val": 0,
+      "test_sha_shared_with_train_or_val": 0,
+      "pass": true
+    },
+    "F_website_sources": {
+      "hardcoded_metric_literals": [],
+      "artefact_references": [],
+      "app_reads_comparison_json": true,
+      "pass": true
+    },
+    "G_duplicate_docs": {
+      "files": {
+        "README.md": {
+          "exists": true,
+          "mentions_corrected_figure": true,
+          "stale_figure_mentions": 2
+        },
+        "reports/results.md": {
+          "exists": true,
+          "mentions_corrected_figure": true,
+          "stale_figure_mentions": 7
+        },
+        "reports/limitations.md": {
+          "exists": true,
+          "mentions_corrected_figure": true,
+          "stale_figure_mentions": 11
+        },
+        "reports/dataset_audit.md": {
+          "exists": true,
+          "mentions_corrected_figure": true,
+          "stale_figure_mentions": 7
+        },
+        "reports/phase2_p0_results.md": {
+          "exists": true,
+          "mentions_corrected_figure": true,
+          "stale_figure_mentions": 1
+        }
+      },
+      "all_mention_corrected": true,
+      "pass": true
+    }
+  }
+}

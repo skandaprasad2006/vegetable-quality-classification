@@ -1,0 +1,243 @@
+{
+  "run_id": "A5",
+  "label": "Random Forest on 83 handcrafted features",
+  "stage": "P0",
+  "config": {
+    "stage": "P0",
+    "kind": "classical",
+    "head": "single",
+    "n_estimators": 200,
+    "class_weight": "balanced_subsample",
+    "label": "Random Forest on 83 handcrafted features",
+    "seed": 42
+  },
+  "model": {
+    "name": "StandardScaler + RandomForestClassifier",
+    "n_estimators": 200,
+    "class_weight": "balanced_subsample",
+    "n_features": 83,
+    "features": [
+      "rgb_r_mean",
+      "rgb_r_std",
+      "rgb_r_skew",
+      "rgb_g_mean",
+      "rgb_g_std",
+      "rgb_g_skew",
+      "rgb_b_mean",
+      "rgb_b_std",
+      "rgb_b_skew",
+      "hue_cos_mean",
+      "hue_sin_mean",
+      "sat_mean",
+      "sat_std",
+      "val_mean",
+      "val_std",
+      "hue_hist_0",
+      "hue_hist_1",
+      "hue_hist_2",
+      "hue_hist_3",
+      "hue_hist_4",
+      "hue_hist_5",
+      "hue_hist_6",
+      "hue_hist_7",
+      "hue_hist_8",
+      "hue_hist_9",
+      "hue_hist_10",
+      "hue_hist_11",
+      "colourfulness",
+      "excess_green",
+      "excess_red",
+      "glcm_contrast_d1",
+      "glcm_contrast_d2",
+      "glcm_contrast_d3",
+      "glcm_dissimilarity_d1",
+      "glcm_dissimilarity_d2",
+      "glcm_dissimilarity_d3",
+      "glcm_homogeneity_d1",
+      "glcm_homogeneity_d2",
+      "glcm_homogeneity_d3",
+      "glcm_energy_d1",
+      "glcm_energy_d2",
+      "glcm_energy_d3",
+      "glcm_correlation_d1",
+      "glcm_correlation_d2",
+      "glcm_correlation_d3",
+      "glcm_ASM_d1",
+      "glcm_ASM_d2",
+      "glcm_ASM_d3",
+      "lbp8_0",
+      "lbp8_1",
+      "lbp8_2",
+      "lbp8_3",
+      "lbp8_4",
+      "lbp8_5",
+      "lbp8_6",
+      "lbp8_7",
+      "lbp8_8",
+      "lbp8_9",
+      "lbp16_0",
+      "lbp16_1",
+      "lbp16_2",
+      "lbp16_3",
+      "lbp16_4",
+      "lbp16_5",
+      "lbp16_6",
+      "lbp16_7",
+      "lbp16_8",
+      "lbp16_9",
+      "lbp16_10",
+      "lbp16_11",
+      "lbp16_12",
+      "lbp16_13",
+      "lbp16_14",
+      "lbp16_15",
+      "lbp16_16",
+      "lbp16_17",
+      "shape_area_frac",
+      "shape_perimeter_norm",
+      "shape_circularity",
+      "shape_aspect_ratio",
+      "shape_solidity",
+      "shape_extent",
+      "shape_equiv_diameter_norm"
+    ]
+  },
+  "train_images": 4286,
+  "val_images": 929,
+  "train_time_s": 0.65,
+  "inference_ms_per_image_batched": 0.101,
+  "latency": {
+    "batch1_ms_median": 0.101
+  },
+  "resources": {},
+  "quality": {
+    "n_samples": 929,
+    "accuracy": 0.9644779332615716,
+    "macro_precision": 0.9698596039064107,
+    "macro_recall": 0.9406971460339291,
+    "macro_f1": 0.9539432365540804,
+    "weighted_f1": 0.9642039194760537,
+    "macro_f1_ci95": {
+      "mean": 0.9537053209178445,
+      "lo": 0.9345247678566369,
+      "hi": 0.9701452686247435,
+      "std": 0.009015210950860657
+    },
+    "classes_present": 5,
+    "classes_absent": [],
+    "per_class": [
+      {
+        "class": "Damaged",
+        "index": 0,
+        "support": 46,
+        "precision": 1.0,
+        "recall": 0.8478260869565217,
+        "f1": 0.9176470588235294
+      },
+      {
+        "class": "Dried",
+        "index": 1,
+        "support": 210,
+        "precision": 0.9766355140186916,
+        "recall": 0.9952380952380953,
+        "f1": 0.9858490566037735
+      },
+      {
+        "class": "Old",
+        "index": 2,
+        "support": 314,
+        "precision": 0.9623824451410659,
+        "recall": 0.9777070063694268,
+        "f1": 0.9699842022116903
+      },
+      {
+        "class": "Ripe",
+        "index": 3,
+        "support": 267,
+        "precision": 0.9552238805970149,
+        "recall": 0.9588014981273408,
+        "f1": 0.9570093457943926
+      },
+      {
+        "class": "Unripe",
+        "index": 4,
+        "support": 92,
+        "precision": 0.9550561797752809,
+        "recall": 0.9239130434782609,
+        "f1": 0.9392265193370166
+      }
+    ],
+    "class_names": [
+      "Damaged",
+      "Dried",
+      "Old",
+      "Ripe",
+      "Unripe"
+    ]
+  },
+  "checkpoints": {
+    "model": "C:\\Users\\Sachin\\OneDrive\\Documents\\Skanda's IPCV proj\\models\\final\\rf_handcrafted.joblib"
+  },
+  "top_features": [
+    {
+      "feature": "excess_green",
+      "importance": 0.05117552516546715
+    },
+    {
+      "feature": "excess_red",
+      "importance": 0.04462221008302043
+    },
+    {
+      "feature": "hue_sin_mean",
+      "importance": 0.03621609972117549
+    },
+    {
+      "feature": "hue_hist_2",
+      "importance": 0.027130253020175986
+    },
+    {
+      "feature": "lbp16_0",
+      "importance": 0.026145895073179985
+    },
+    {
+      "feature": "hue_cos_mean",
+      "importance": 0.0256452029838927
+    },
+    {
+      "feature": "hue_hist_1",
+      "importance": 0.02551002081439162
+    },
+    {
+      "feature": "lbp16_8",
+      "importance": 0.02412962549342584
+    },
+    {
+      "feature": "hue_hist_10",
+      "importance": 0.02155995438469791
+    },
+    {
+      "feature": "colourfulness",
+      "importance": 0.02104678005782829
+    },
+    {
+      "feature": "hue_hist_9",
+      "importance": 0.020856496782026654
+    },
+    {
+      "feature": "rgb_r_std",
+      "importance": 0.02059749662042749
+    },
+    {
+      "feature": "lbp16_9",
+      "importance": 0.01989581335912446
+    },
+    {
+      "feature": "hue_hist_8",
+      "importance": 0.018676014724504197
+    },
+    {
+      "feature": "lbp16_14",
+      "importance": 0.01784782326558336
+    }
+  ]
+}
